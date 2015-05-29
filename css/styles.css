@@ -58,7 +58,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 menu,
 nav,
 section,
@@ -81,7 +80,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 menu,
 nav,
 section {
@@ -207,7 +205,7 @@ section:last-child {
     font-style: italic;
 }
 .extendsDetails {
-    margin: 2% 0% 4% 6%;
+    margin: 2% 0 4% 6%;
 }
 .keySkills {
     list-style-type: none;
@@ -367,29 +365,29 @@ section:last-child {
     animation-timing-function: ease-in;
 }
 .delayOne {
-    -webkit-animation-delay: 0, .5s;
-    -moz-animation-delay: 0, .5s;
-    animation-delay: 0, .5s;
+    -webkit-animation-delay: 0.25s;
+    -moz-animation-delay: 0.25s;
+    animation-delay: 0.25s;
 }
 .delayTwo {
-    -webkit-animation-delay: 0, 1s;
-    -moz-animation-delay: 0, 1s;
-    animation-delay: 0, 1s;
+    -webkit-animation-delay: 0.05s;
+    -moz-animation-delay: 0.05s;
+    animation-delay: 0.05s;
 }
 .delayThree {
-    -webkit-animation-delay: 0, 1.5s;
-    -moz-animation-delay: 0, 1.5s;
-    animation-delay: 0, 1.5s;
+    -webkit-animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+    animation-delay: 0.75s;
 }
 .delayFour {
-    -webkit-animation-delay: 0, 2s;
-    -moz-animation-delay: 0, 2s;
-    animation-delay: 0, 2s;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    animation-delay: 0.1s;
 }
 .delayFive {
-    -webkit-animation-delay: 0, 2.5s;
-    -moz-animation-delay: 0, 2.5s;
-    animation-delay: 0, 2.5s;
+    -webkit-animation-delay: 1.25s;
+    -moz-animation-delay: 1.25s;
+    animation-delay: 1.25s;
 }
 iframe {
     border: none;
