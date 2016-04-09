@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+    <h3><i class="fa fa-check text-grey-color"></i> {{'T_PROJECTS' | translate}}</h3>
+  </div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+    <h3 class="text-right">
+            <a class="" href ng-click="projectsCtrl.show()"><i class="fa fa-angle-down" ng-hide="projectsCtrl.toggle"></i></a>
+            <a class="" href ng-click="projectsCtrl.hide()"><i class="fa fa-angle-up" ng-show="projectsCtrl.toggle"></i></a>
+        </h3>
+  </div>
+  <div ng-show="!projectsCtrl.toggle">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="bs-callout bs-callout-info" ng-repeat="project in informations.projects">
+        <span><strong><a href="{{project.url || 'javascript:void(0)'}}" target="{{project.url ? '_blank':'javascript:void(0)'}}">{{project.title}}</a></strong>, {{project.client}}</span>
+        <span class="text-grey-color">({{project.from | date : 'MM/yyyy'}} {{'T_TO' | translate}} {{project.to | date : 'MM/yyyy'}})</span>
+        <p>{{project.description}}</p>
+        <p class="text-grey-color">{{'T_TECHNOLOGIES' | translate}}: {{project.technologies.slice(0, -1).join(', ')}} {{'T_AND' | translate}} {{project.technologies.slice(-1).join(', ')}}</p>
+      </div>
+    </div>
+  </div>
+</div>

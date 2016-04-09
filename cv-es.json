@@ -1,0 +1,256 @@
+{
+  "personal_information": {
+    "name": "Javier",
+    "surname": "Santos Romero",
+    "phone": "+34 627623858",
+    "web": "http://javisr.net",
+    "email": "javi@javisr.net",
+    "social_contacts": {
+      "twitter": "javisr",
+      "linkedin": "javisr",
+      "github": "javisr",
+      "skype": "javisr.net"
+    },
+    "location": "Sevilla, España"
+  },
+  "summary": "Programador especializado en desarrollo de aplicaciones web con amplia experiencia en la mayoría de fases de un proyecto: análisis previo, back-end y front-end, habiendo orientado mi carrera profesional hacia este último. En este campo puedo destacar el manejo adquirido en herramientas basadas en JavaScript, como AngularJS, Google Maps V3 y jQuery entre otras.<br>Autodidacta en continua formación e inquieto con las nuevas tecnologías.<br>Habituado a trabajar en situaciones límite y con falta de tiempo, considero haber desarrollado una gran capacidad de actuación. He participado en numerosos proyectos con equipos de carácter internacional, para compañías como HP, Ryanair or Virgins Trains.",
+  "skills": [{
+    "name": "Javascript",
+    "level": 8
+  }, {
+    "name": "NodeJS",
+    "level": 5
+  }, {
+    "name": "AngularJS",
+    "level": 8
+  }, {
+    "name": "jQuery",
+    "level": 7
+  }, {
+    "name": "PHP",
+    "level": 7
+  }, {
+    "name": "Drupal",
+    "level": 7
+  }, {
+    "name": "Bootstrap",
+    "level": 4
+  }, {
+    "name": "HTML5",
+    "level": 5
+  }],
+  "languages": {
+    "en": {
+      "name": "Inglés",
+      "level": 3,
+      "certificate": "Cambridge ESOL Preliminary English Test (PET)",
+      "text_level": "B1 - Intermedio"
+    },
+    "es": {
+      "name": "Español",
+      "level": 5,
+      "text_level": "Lengua materna"
+    }
+  },
+  "professional_experience": [{
+    "title": "Programador Javascript Senior",
+    "from": "2015-02-09",
+    "to": "actualidad",
+    "company": {
+      "name": "Snowdrop Solutions",
+      "url": "http://www.snowdropsolutions.co.uk/"
+    },
+    "description": "Desarrollo de aplicaciones webs y ​widgets basadas en AngularJS y Google Maps V3",
+    "projects": ["ryanair_routemap", "letmemap", "vt_jp", "jll", "inmarsat_coverage"]
+  }, {
+    "title": "Programador Javascript y Drupal Senior",
+    "from": "2014-09-01",
+    "to": "actualidad",
+    "company": {
+      "name": "Emergya",
+      "url": "http://www.emergya.es/"
+    },
+    "description": "Desarrollo y arquitectura de aplicaciones front-end basadas en Drupal",
+    "projects": ["hp_ipt"]
+  }, {
+    "title": "Programador Drupal y Javascript Junior",
+    "from": "2013-06-03",
+    "to": "2014-08-31",
+    "company": {
+      "name": "Emergya",
+      "url": "http://www.emergya.es/"
+    },
+    "description": "Desarrollo de aplicaciones back-end y front-end basadas en Drupal",
+    "projects": ["hp_assethub"]
+  }, {
+    "title": "Becario Drupal",
+    "from": "2012-10-22",
+    "to": "2013-06-02",
+    "company": {
+      "name": "Emergya",
+      "url": "http://www.emergya.es/"
+    },
+    "description": "Desarrollo de aplicaciones back-end basadas en Drupal",
+    "projects": ["cexma", "acd", "gva"]
+  }],
+  "projects": {
+    "eurostar": {
+      "title": "​Eurostar Livemap",
+      "client": "​Eurostar (UK)",
+      "from": "2015-08-15",
+      "to": "actualidad",
+      "role": "Programador Senior",
+      "description": "​Widget para la visualización de la posición ​de los trenes de alta velocidad, operado por Eurostar, en el sistema de entretenimiento de a bordo, así como lugares de interés definidos por el cliente.",
+      "technologies": ["JavaScript", "AngularJS", "Less", "Git", "Google Maps API v3", "Google Maps Static API", "turfjs", "GeoJSON", "SCRUM"]
+    },
+    "ryanair_routemap": {
+      "title": "​Ryanair RouteMap",
+      "client": "​Ryanair (IRL)",
+      "from": "2015-07-01",
+      "to": "actualidad",
+      "role": "Programador Senior",
+      "description": "​Widget para la visualización de las rutas que opera Ryanair en su nuevo portal por lo que tendrá una gran visibilidad. Permite filtrar vuelos y es un punto de acceso al sistema de booking de vuelos de Ryanair.",
+      "technologies": ["JavaScript", "AngularJS", "D3.js", "Less", "Git", "Google Maps API v3", "SCRUM"]
+    },
+    "PlanAvanza-SnowdropTools": {
+      "title": "​Snowdrop Tools",
+      "client": "Snowdrop Solutions (UK)",
+      "from": "2015-02-01",
+      "to": "actualidad",
+      "role": "Programador Senior",
+      "description": "​Proyecto I+D para la creación de un servicio de mapas en la nube donde el usuario pueda crear mapas personalizados con funciones de busqueda avanzada.",
+      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "Java", "Maven"]
+    },
+    "nrhs": {
+      "title": "​NetworkRail High Speed (UK)",
+      "client": "NetworkRail High Speed (UK)",
+      "from": "2015-02-01",
+      "to": "2015-06-01",
+      "role": "Programador Senior",
+      "description": "​Sistema GIS para la gestión y visualización de elementos relacionado con las líneas ferroviarias de alta velocidad en el Reino Unido.",
+      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Google MapsEngine", "Google AppEngine", "SCRUM", "Java", "Spring", "Maven"]
+    },
+    "vt_jp": {
+      "title": "VT-JourneyPlanner",
+      "client": "Virgin Trains (UK)",
+      "from": "2015-03-01",
+      "to": "2015-06-01",
+      "role": "Programador Senior",
+      "description": "​Widget basado en Google Maps para el cálculo de rutas destinado al nuevo portal de Virgin Trains.",
+      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Bootstrap", "Less", "SCRUM"]
+    },
+    "jll": {
+      "title": "​JLL Enhanced GIS Viewer",
+      "client": "JLL (UK)",
+      "from": "2015-02-01",
+      "to": "2015-04-01",
+      "role": "Programador Senior",
+      "description": "​Widget de visualización de mapas para su uso en varios portales/aplicaciones de JLL, con funcionalidad avanzada.",
+      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Google MapsEngine", "Google AppEngine", "SCRUM"]
+    },
+    "hp_ipt": {
+      "title": "​Image Process Transformation",
+      "client": "Hewlett Packard",
+      "from": "2014-09-01",
+      "to": "2015-02-01",
+      "role": "Programador Senior",
+      "description": "​Herramienta para el despliegue de imágenes pubicitarias.",
+      "technologies": ["Drupal", "jQuery", "JavaScript", "PHP", "Solr", "Java", "TestNG", "Selenium", "Amazon S3", "CSS", "JWPlayer"]
+    },
+    "hp_assethub": {
+      "title": "​HP Asset Hub",
+      "client": "Hewlett Packard",
+      "from": "2013-06-01",
+      "to": "2014-09-01",
+      "role": "Programador Junior",
+      "description": "​Portal para el departamento de marketing de HP Desarrollo del portal basado en Drupal integrando tecnologías como Solr y servicios REST implementados en Java.",
+      "technologies": ["Drupal", "jQuery", "JavaScript", "PHP", "Solr", "Java", "TestNG", "Selenium", "Amazon S3", "CSS", "JWPlayer"]
+    },
+    "gva": {
+      "title": "​Portal Oficial de Turismo de la Comunitat Valenciana",
+      "client": "Generalitat V​alenciana",
+      "from": "2012-10-01",
+      "to": "2013-06-01",
+      "role": "beacario",
+      "description": "​Portal de Turismo de la Comunitat V​alenciana.En este proyecto se migró el anterior portal Drupal 5 a Drupal 6, rehaciendo en este proceso toda la arquitectura de información y datos, así como un rediseño de todo el portal. Así mismo, se añadieron nuevas funcionalidades.",
+      "technologies": ["Drupal", "PHP", "JavaScript", "CSS"]
+    },
+    "acd": {
+      "title": "​Andalucia Compromiso Digital",
+      "client": "Junta de Andalucía",
+      "from": "2012-10-01",
+      "to": "2013-06-01",
+      "role": "beacario",
+      "description": "​Portal de la Junta de Andalucía dedicado a la reducción de la brecha digital mediante la formación a través de voluntarios y empresas asociadas al programa. En este proyecto se realizó un reestilado del portal y así como una amplición de funcionalidades.",
+      "technologies": ["Drupal", "PHP", "JavaScript", "CSS", "Moodle"]
+    }
+  },
+  "education": [{
+    "name": "Ciclo superior de Técnico en Administración de Sistemas Informáticos",
+    "from": "2009",
+    "to": "2011",
+    "at": "I.E.S. Punta del Verde (Sevilla)"
+  }, {
+    "name": "Bachillerato tecnológico",
+    "from": "2004",
+    "to": "2006",
+    "at": "I.E.S. San Blas, Aracena (Huelva)"
+  }],
+  "couses": [{
+    "title": "Staying sharp with Angular.js",
+    "from": "Code School",
+    "type": "Online",
+    "when": "2014"
+  }, {
+    "title": "Shaping up with Angular.js",
+    "from": "Code School",
+    "type": "Online",
+    "when": "2014"
+  }, {
+    "title": "Journey Into Mobile",
+    "from": "Code School",
+    "type": "Online",
+    "when": "2014"
+  }, {
+    "title": "Front-end Formations",
+    "from": "Code School",
+    "type": "Online",
+    "when": "2014"
+  }, {
+    "title": "CSS Cross-Country",
+    "from": "Code School",
+    "type": "Online",
+    "when": "2014"
+  }, {
+    "title": "JavaScript Best Practices",
+    "from": "Code School",
+    "type": "Online",
+    "when": "2014"
+  }, {
+    "title": "jQuery partes 1 y 2",
+    "from": "Code School",
+    "type": "Online",
+    "when": "2013"
+  }, {
+    "title": "JavaScript Road Trip partes 1, 2 y 3",
+    "from": "Code School",
+    "type": "Online",
+    "when": "2013"
+  }, {
+    "title": "Experto en Drupal 7, Desarrollo de aplicaciones web",
+    "when": "2012",
+    "from": "Forcontu",
+    "type": "Online",
+    "hours": "420h"
+  }, {
+    "title": "Metodologías Ágiles de Desarrollo de Software y Técnicas de Productividad Personal",
+    "from": "CICA",
+    "type": "Presencial",
+    "hours": "20h"
+  }, {
+    "title": "PHP y MySQL",
+    "from": "EuroInnova",
+    "type": "Online",
+    "hours": "85h"
+  }]
+}

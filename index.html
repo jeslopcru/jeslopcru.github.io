@@ -1,249 +1,68 @@
-<!DOCTYPE html>s
-<html prefix="og: http://ogp.me/ns#">
+<!DOCTYPE html>
+<html lang="en" ng-app="cv" prefix="og: http://ogp.me/ns#">
 
 <head lang="es">
     <title>Jesús López - Curriculum Vitae (Jesús LC)</title>
     <link rel="author" href="humans.txt">
-    <link rel="shortcut icon" href="images/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="description" content="Jesús L.C. Curriculum Vitae" />
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="Jesús L.C. Curriculum Vitae"/>
     <meta charset="UTF-8">
     <!-- Open grah -->
-    <meta property="og:title" content="Jesús López - Curriculum Vitae (Jesús LC)" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://cv.jesuslc.com" />
-    <meta property="og:image" content="http://cv.jesuslc.com/images/jesuslc.jpg" />
-    <meta property="og:description" content="Jesús L.C. Curriculum Vitae. Ingeniero en Informática por la Universidad de Sevilla. Desarrollador de software apasionado por el testing y el mundo agile. Curioso. Con ganas de aprender y mejorar cada día." />
-    <meta property="og:site_name" content="Jesús L.C. Curriculum Vitae" />
-    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:title" content="Jesús López - Curriculum Vitae (Jesús LC)"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://cv.jesuslc.com"/>
+    <meta property="og:image" content="http://cv.jesuslc.com/images/jesuslc.jpg"/>
+    <meta property="og:description"
+          content="Jesús L.C. Curriculum Vitae. Ingeniero en Informática por la Universidad de Sevilla. Desarrollador de software apasionado por el testing y el mundo agile. Curioso. Con ganas de aprender y mejorar cada día."/>
+    <meta property="og:site_name" content="Jesús L.C. Curriculum Vitae"/>
+    <meta property="og:locale:alternate" content="es_ES"/>
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@jeslopcru">
     <meta name="twitter:title" content="Jesús L.C. Curriculum Vitae">
-    <meta name="twitter:description" content="Jesús L.C. Curriculum Vitae. Ingeniero en Informática por la Universidad de Sevilla. Desarrollador de software apasionado por el testing y el mundo agile. Curioso. Con ganas de aprender y mejorar cada día.">
+    <meta name="twitter:description"
+          content="Jesús L.C. Curriculum Vitae. Ingeniero en Informática por la Universidad de Sevilla. Desarrollador de software apasionado por el testing y el mundo agile. Curioso. Con ganas de aprender y mejorar cada día.">
     <meta name="twitter:creator" content="@jeslopcru">
     <meta name="twitter:image" content="http://cv.jesuslc.com/images/jesuslc.jpg">
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/mapsmodal.css">
-    <script src="js/jquery-1.6.4.min.js"></script>
-
-    <link type="text/css" rel="stylesheet" href="css/button.css">
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <!-- JS -->
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.3.0/angular.min.js"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.3.0/angular-route.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.7.2/angular-translate.min.js"></script>
+    <!-- Angular modules -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>
+    <script type="text/javascript" src="js/directives.js"></script>
 </head>
+<body>
+<ng-view></ng-view>
 
-<body id="top">
-    <div id="cv" class="instaFade">
-        <div class="mainDetails">
-            <div id="headshot" class="quickFade">
-                <img src="images/jesuslc.png" alt="Jesús López" />
-            </div>
-            <div id="name">
-                <h1 class="quickFade delayTwo">Jesús López</h1>
-                <h2 class="quickFade delayThree">Ingeniero en Informática</h2>
-            </div>
-            <div id="contactDetails" class="quickFade delayFour">
-                <ul>
-                    <li>
-                        <i class="fa fa-home fa-1x"></i>
-                        <a href="#" id="madrid">28020 Madrid</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope fa-1x"></i>
-                        <span>jeslopcru [at] gmail.com</span>
-                    </li>
-                    <li>
-                        <i class="fa fa-wordpress fa-1x"></i>
-                        <a href="http://www.jesuslc.com" target="_blank">jesuslc.com</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-github-square 1a-1x"></i>
-                        <a href="http://github.com/jeslopcru" target="_blank">github.com/jeslopcru</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="clear"></div>
-        </div>
-        <div id="mainArea" class="quickFade delayFive">
-            <section>
-                <article>
-                    <div class="sectionTitle">
-                        <h1>Sobre Mí</h1>
-                    </div>
-                    <div class="sectionContent">
-                        <p>Me llamo Jesús López, soy ingeniero en informática y un apasionado de la programación. Me considero una persona inquieta, curiosa y minuciosa en las cosas que hago. Me gusta cocinar para relajarme. Cada vez que puedo intento seguir investigando y los descubrimientos los escribo en mi <a href="http://jesuslc.com" target="_blank">blog</a>.</p>
-                    </div>
-                </article>
-                <div class="clear"></div>
-            </section>
-            <section>
-                <div class="sectionTitle">
-                    <h1>Experiencia</h1>
-                </div>
-                <div class="sectionContent">
-                    <article>
-                        <h2>Desarrollador web</h2>
-                        <h3 class="company"><a href="http://www.genexies.com" rel="nofollow" target="_blank">Genexies Mobile</a></h3>
-                        <p class="subDetails">Septiembre 2013 - Actualmente | Madrid</p>
-                        <span>Desarrollador de una plataforma de gestión de contenidos digitales para dispositivos móviles.    </span>
-                        <ul class="extendsDetails">
-                            <li>Desarrollo de módulos y componentes</li>
-                            <li>Integración con servicios de terceros</li>
-                            <li>Integración con operadoras de telecomunicaciones</li>
-                            <li>Testing y calidad</li>
-                            <li>Generación y automatización de informes</li>
-                            <li>Maquetación en dispositivos móviles</li>
-                        </ul>
-                        <p>Herramientas: Jira, Confluence, Fisheye, utilizadas bajo un paraguas de metodologías ágiles (Scrum y Kanban). Tecnologías utilizadas: Xubuntu, PHP (Symfony), PHPUnit, MySQL, Java (Spring framework), Apache, Memcached, Vagrant, Jenkins, Selenium, TestNG, ActiveMQ, Mercurial, herramientas propias</p>
-                    </article>
-                    <article>
-                        <h2>Ingeniero de Software</h2>
-                        <h3 class="company"><a href="http://www.zinetic.es" rel="nofollow" target="_blank">Zinetic Ways</a></h3>
-                        <p class="subDetails">Junio 2012 - Enero 2013 | Madrid</p>
-                        <span>Desarrollador y gestión de aplicaciones web, portales corporativos y tiendas online basados en la plataforma Joomla. Mis tareas se centraban en:</span>
-                        <ul class="extendsDetails">
-                            <li>Customización de módulos y componentes Joomla</li>
-                            <li>Desarrollo de módulos y componentes propios</li>
-                            <li>Desarrollo pasarela de pagos</li>
-                            <li>Integración de portales con otros sistemas</li>
-                            <li>Maquetación</li>
-                        </ul>
-                        <p>Tecnologías utilizadas: PHP, Joomla, MySQL, HTML, JQuery y CSS.</p>
-                    </article>
-                    <article>
-                        <h2>Tester en calidad y automatización</h2>
-                        <h3 class="company"><a href="http://www.meta4.es" rel="nofollow" target="_blank">Meta4</a></h3>
-                        <p class="subDetails">October 2004 - December 2006 | Madrid</p>
-                        <span>Beca como técnico de automatización y testing. Dentro de mis tareas estaban la ejecución y automatización de pruebas tecnológicas. Reporte de incidencias. Aseguramiento de la calidad, integridad y seguridad del software.</span>
-                        <ul class="extendsDetails">
-                            <li>Automatización de pruebas funcionales</li>
-                            <li>Documentación</li>
-                            <li>Hacking ético</li>
-                            <li>Reporte de incidencias</li>
-                        </ul>
-                        <p>Herramientas y tecnología utilizadas:w3af, Selenium, Firefox (TamperData, HackBar, XSS Me, SQL Inject Me), herramientas internas para seguimiento de bugs y documentación.</p>
-                    </article>
-                    <article>
-                        <h2>Técnico de soporte funcional</h2>
-                        <h3 class="company"><a href="http://www.grupoavalon.es" rel="nofollow" target="_blank" >Grupo Avalon</a></h3>
-                        <p class="subDetails">Octubre 2011 - Enero 2012 | Madrid</p>
-                        <span>Beca técnico en soporte funcional en el Grupo Vocento (Madrid). Formaba parte del equipo de soporte funcional, desarrollando tareas como:</span>
-                        <ul class="extendsDetails">
-                            <li>Análisis, diagnóstico, gestión y resolución de incidencias.</li>
-                            <li>El contacto directo con los diferentes usuarios y proveedores.</li>
-                            <li>El uso de diferentes herramientas: sistemas de gestión de contenidos (Methode,Wordpress, Disqus, ...), herramientas de ticketting (Jira, Redmine,...), etc.</li>
-                        </ul>
-                        <p>Herramientas y tecnologías utilizadas: Methode, Wordpress, Disqus, XML, XSLT, HTML, PHP, FTP, monitorización de los sistemas, Jira, Redmine, Sistemas de ticketing propios, SSH, Windows, UNIX</p>
-                    </article>
-                    <article>
-                        <h2>Tester aplicaciones web</h2>
-                        <h3 class="company"><a href="http://atos.net" rel="nofollow" target="_blank">Atos</a></h3>
-                        <p class="subDetails">Junio 2011 - Septiembre 2011 | Sevilla</p>
-                        <span>Beca Tester aplicaciones web para proyecto "Oficina Vodafone". Dentro del equipo de trabajo realizaba:</span>
-                        <ul class="extendsDetails">
-                            <li>Ejecución de las pruebas (sistemas, regresión, integración)</li>
-                            <li>Documentación de las pruebas realizadas</li>
-                            <li>Reporte de las incidencias durante las pruebas</li>
-                        </ul>
-                        <p>Herramientas utilizadas: HP Quality Center, SoapUI, SQL Developer, Heidi SQL, Microsoft SQL Server.
-                        </p>
-                    </article>
-                </div>
-                <div class="clear"></div>
-            </section>
-            <section>
-                <div class="sectionTitle">
-                    <h1>Educación</h1>
-                </div>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-                <div class="sectionContent">
-                    <article>
-                        <h2>Ingeniero en Informática</h2>
-                        <p class="subDetails">Universidad de Sevilla</p>
-                        <span>Algunos proyectos y cursos desarrollados durante la carrera:</span>
-                        <ul class="extendsDetails">
-                            <li>Reconocimiento lingüistico para el diario de sesiones de Congreso de los Diputados (Java: Lucene, Solr, Python: NLTK).</li>
-                            <li>Curso “Desarrollo Ágil”. Inteco Formación. (10h), Julio 2010.</li>
-                            <li>Curso “Calidad de un producto software”. Inteco Formación. (10h), Junio 2010.</li>
-                            <li>Aplicación web para smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3).</li>
-                            <li>Proyecto Fin de carrera: Red social privada para rehabilitación de pacientes (Liferay, Social Office, Java, Spring, Hibernate, Maven y PostgreSQL</li>
-                        </ul>
-                    </article>
-                    <article>
-                        <h2>Beca SICUE/Séneca - Ingeniero en Informática</h2>
-                        <p class="subDetails">Universidad Pontificia de Salamanca Campus de Madrid</p>
-                        <p>Durante el curso 2011/2012 disfruté de una beca SICUE/Séneca para complementar mis estudios</p>
-                    </article>
-                </div>
-                <div class="clear"></div>
-            </section>
-            <section>
-                <div class="sectionTitle">
-                    <h1>Key Skills</h1>
-                </div>
-                <div class="sectionContent">
-                    <dl class="keySkills">
-                        <dd class="button white small">LAMP</dd>
-                        <dd class="button white small">WEB DEVELOPMENT</dd>
-                        <dd class="button white small">PHP</dd>
-                        <dd class="button white small">JAVA</dd>
-                        <dd class="button white small">TESTING</dd>
-                        <dd class="button white small">PHPUNIT</dd>
-                        <dd class="button white small">SELENIUM</dd>
-                        <dd class="button white small">TDD</dd>
-                        <dd class="button white small">TESTING</dd>
-                        <dd class="button white small">GIT</dd>
-                        <dd class="button white small">QA</dd>
-                        <dd class="button white small">MYSQL</dd>
-                        <dd class="button white small">APACHE</dd>
-                        <dd class="button white small">MEMCACHED</dd>
-                        <dd class="button white small">SQL</dd>
-                        <dd class="button white small">LEARNER</dd>
-                        <dd class="button white small">CHEF</dd>
-                        <dd class="button white small">VAGRANT</dd>
-                        <dd class="button white small">BASH</dd>
-                        <dd class="button white small">WORDPRESS</dd>
-                        <dd class="button white small">LIFERAY</dd>
-                        <dd class="button white small">SPRING</dd>
-                        <dd class="button white small">MAVEN</dd>
-                        <dd class="button white small">HIBERNATE</dd>
-                        <dd class="button white small">OPEN SOURCE</dd>
-                        <dd class="button white small">PROBLEM SOLVING</dd>
-                        <dd class="button white small">TEAM PLAYER</dd>
-                        <dd class="button white small">AGILE</dd>
-                    </dl>
-                </div>
-                <div class="clear"></div>
-            </section>
-        </div>
-    </div>
-    <!-- Modal -->
-    <div id="madrid-modal">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12143.436403287733!2d-3.69733705!3d40.45625539999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229023371f6f9%3A0x1c0340f7338bab80!2s28020+Madrid!5e0!3m2!1sen!2s!4v1403970423651" width="640" height="480" frameborder="0" style="border:0"></iframe>
-    </div>
-    <!-- End modal-->
-    <script src="js/jquery.simplemodal.1.4.4.min.js"></script>
-    <script type="text/javascript" src="js/maplauncher.js"></script>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-35027264-2', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
 
-        ga('create', 'UA-35027264-2', 'auto');
-        ga('require', 'displayfeatures');
-        ga('send', 'pageview');
-    </script>
 </body>
-
 </html>

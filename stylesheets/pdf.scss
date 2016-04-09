@@ -1,0 +1,22 @@
+@import 'paper-variables.scss';
+@import "paper-variables-pdf.scss";
+//@import 'paper-bootswatch.scss';
+@import 'styles.scss';
+body {
+  padding-top: 20px;
+}
+.navbar {
+  display: none !important;
+}
+.fa {
+  display: none !important;
+}
+.print {
+  display: inline !important;
+  ;
+}
+@media (min-width: 768px) {
+  .img-profile {
+    width: 18%;
+  }
+}
