@@ -34,18 +34,17 @@ hr {
   }
 }
 .img-profile {
-  width: 15%;
-  float: left;
-  margin-right: 5%;
-}
-.img-profile img {
-  width: 100%;
-  height: auto;
-  -webkit-border-radius: 60px;
-  border-radius: 60px;
+  @extend .col-lg-3;
+  @extend .col-md-3;
+  @extend .col-sm-3;
+  @extend .col-xs-12;
+  @media (max-width: $screen-sm-min) {
+    text-align: center;
+  }
 }
 .name-role {
-
+  @extend .col-sm-6;
+  @extend .col-xs-12;
   @media (max-width: $screen-sm-min) {
     text-align: center;
     p {
@@ -54,6 +53,8 @@ hr {
   }
 }
 .contact-details {
+  @extend .col-sm-3;
+  @extend .col-xs-12;
   @media (min-width: $screen-sm-min) {
     //text-align: right;
   }

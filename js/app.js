@@ -31,7 +31,7 @@
 
 
   app.config(['$compileProvider', function($compileProvider) {
-    $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|javascript|skype):/);
+    $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|javascript):/);
   }]);
 
   app.config(function($translateProvider) {

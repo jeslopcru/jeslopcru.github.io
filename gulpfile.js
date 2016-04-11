@@ -36,16 +36,6 @@ gulp.task('pdfsass', ['clean'], function() {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('pdf', ['pdfsass'], plugins.shell.task([
-  'wkhtmltopdf --margin-left 15 --margin-right 15 --zoom 1.0 --viewport-size 1280x1024 http://localhost:8080/#/en curriculum-javisantos-en.pdf',
-  'wkhtmltopdf --margin-left 15 --margin-right 15 --zoom 1.0 --viewport-size 1280x1024 http://localhost:8080/#/es curriculum-javisantos-es.pdf'
-]));
-
-
-gulp.task('build', function(callback) {
-  runSequence('pdf', 'sass');
-});
-
 gulp.task('watch', function() {
   gulp.watch(files.index, ['build']);
   gulp.watch(files.js, ['build']);
