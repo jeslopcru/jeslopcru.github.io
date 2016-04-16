@@ -49,7 +49,10 @@
       T_CERTIFICATIONS: 'Certifications',
       T_TECHNOLOGIES: 'Technologies',
       T_ENGLISH: 'English',
-      T_SPANISH: 'Spanish'
+      T_SPANISH: 'Spanish',
+      T_DETAILS: 'Details',
+      T_STACK_AND_TOOLS: 'Stack and tools'
+
     });
     $translateProvider.translations('es', {
       T_DOWNLOAD: 'Descargar en PDF',
@@ -65,9 +68,13 @@
       T_CERTIFICATIONS: 'Certificaciones',
       T_TECHNOLOGIES: 'Tecnologías',
       T_ENGLISH: 'Inglés',
-      T_SPANISH: 'Español'
+      T_SPANISH: 'Español',
+      T_DETAILS: 'Detalles',
+      T_STACK_AND_TOOLS: 'Tecnología y herramientas'
     });
     $translateProvider.preferredLanguage('en');
+    $translateProvider.useSanitizeValueStrategy('escape');
+
   });
 
   app.filter("sanitize", ['$sce', function($sce) {
@@ -75,5 +82,4 @@
       return $sce.trustAsHtml(htmlCode);
     };
   }]);
-
 })();
