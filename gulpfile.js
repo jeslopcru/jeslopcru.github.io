@@ -36,6 +36,10 @@ gulp.task('pdfsass', ['clean'], function() {
     .pipe(gulp.dest('css'));
 });
 
+gulp.task('build', function(callback) {
+  runSequence('sass');
+});
+
 gulp.task('watch', function() {
   gulp.watch(files.index, ['build']);
   gulp.watch(files.js, ['build']);
