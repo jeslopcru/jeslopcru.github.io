@@ -29,6 +29,16 @@
     };
   });
 
+   // ------- cv-skills DIRECTIVE
+  app.directive('cvSkills', function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'templates/cv-skills.html',
+      controller: controllerFn,
+      controllerAs: 'skillsCtrl'
+    };
+  });
+
   // ------- cv-experiences DIRECTIVE
   app.directive('cvExperiences', function() {
     return {
@@ -56,15 +66,6 @@
       templateUrl: 'templates/cv-education.html',
       controller: controllerFn,
       controllerAs: 'educationCtrl'
-    };
-  });
-  // ------- cv-skills DIRECTIVE
-  app.directive('cvSkills', function() {
-    return {
-      restrict: 'E',
-      templateUrl: 'templates/cv-skills.html',
-      controller: controllerFn,
-      controllerAs: 'skillsCtrl'
     };
   });
 

@@ -12,6 +12,15 @@
     "location": "Madrid, Spain"
   },
   "summary": "Me llamo Jesús López, soy ingeniero en informática y un apasionado de la programación. Me considero una persona inquieta, curiosa y minuciosa en las cosas que hago. Cada vez que puedo intento seguir investigando y los descubrimientos los escribo en <a href='http://jesuslc.com'>jesuslc.com</a>.",
+   "skills": [{
+    "name": "Javascript",
+    "level": 8
+},
+{
+    "name": "Javadddddscript",
+    "level": 1
+}
+],
   "professional_experience": [
     {
       "title": "Ingeniero de software",
