@@ -36,11 +36,13 @@
 
   app.config(function($translateProvider) {
     $translateProvider.translations('en', {
+      T_BLOG: 'Blog',
       T_DOWNLOAD: 'Download PDF',
       T_SUMMARY: 'Summary',
       T_EXPERIENCE: 'Experience',
       T_SKILLS: 'Skills',
       T_AT: 'at',
+      T_BY: 'by',
       T_AND: 'and',
       T_TO: 'to',
       T_PROJECTS: 'Projects',
@@ -55,11 +57,13 @@
 
     });
     $translateProvider.translations('es', {
+      T_BLOG: 'Blog',
       T_DOWNLOAD: 'Descargar en PDF',
       T_SUMMARY: 'Resumen',
       T_EXPERIENCE: 'Experiencia',
       T_SKILLS: 'Conocimientos',
       T_AT: 'en',
+      T_BY: 'por',
       T_AND: 'y',
       T_TO: 'hasta',
       T_PROJECTS: 'Proyectos',
