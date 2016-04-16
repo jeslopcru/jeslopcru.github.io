@@ -10,8 +10,11 @@
   </div>
   <div ng-show="!educationCtrl.toggle">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="bs-callout bs-callout-warning" ng-repeat="edu in informations.education">
-        <span><strong>{{edu.name}}</strong><span> {{'T_AT' | translate}} <span class="text-grey-color">{{edu.at}}</span>
+      <div class="bs-callout bs-callout-warning details" ng-repeat="edu in informations.education">
+        <span class="title"><strong>{{edu.name}}</strong><span> {{'T_AT' | translate}} <span class="text-grey-color">{{edu.at}}</span>
+        <p class="text-justify">
+        {{edu.description}}
+        </p>
       </div>
     </div>
   </div>

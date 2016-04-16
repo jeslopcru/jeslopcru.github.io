@@ -10,8 +10,8 @@
   </div>
   <div ng-show="!experiencesCtrl.toggle">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="bs-callout bs-callout-info experienceDetails" ng-repeat="exp in informations.professional_experience">
-      <div class="experienceTitle">
+      <div class="bs-callout bs-callout-info details" ng-repeat="exp in informations.professional_experience">
+      <div class="title">
         <span><strong>{{exp.title}}</strong> {{'T_AT' | translate}}
           <a href="{{exp.company.url|| 'javascript:void(0)'}}" target="{{exp.company.url ? '_blank':'javascript:void(0)'}}">{{exp.company.name}}</a></span>
           <span class="text-grey-color">({{exp.from | date : 'MM/yyyy'}} {{'T_TO' | translate}} {{exp.to | date : 'MM/yyyy'}})</span>
