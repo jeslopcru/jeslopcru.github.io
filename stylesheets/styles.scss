@@ -24,7 +24,7 @@ img {
   z-index: 1;
 }
 p {
-  //  text-align: justify;
+    text-align: justify;
 }
 hr {
   margin: 0;
@@ -56,7 +56,7 @@ hr {
   @extend .col-sm-3;
   @extend .col-xs-12;
   @media (min-width: $screen-sm-min) {
-    //text-align: right;
+    text-align: right;
   }
   @media (max-width: $screen-sm-min) {
     text-align: center;
@@ -64,4 +64,14 @@ hr {
 }
 .print {
   display: none;
+}
+
+.experienceTitle{
+  margin-bottom: 1%;
+  strong{
+    font-size: medium;  
+  }
+}
+.experienceDetails{
+  margin-bottom: 3%;
 }

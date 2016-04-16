@@ -150,14 +150,20 @@ select.form-control {
   .nav-tabs > li > a:hover {
     background-color: transparent;
     color: #2196F3; }
+
 .nav-tabs > li.active > a {
   border: none;
   color: #2196F3; }
   .nav-tabs > li.active > a:hover {
     border: none;
     color: #2196F3; }
-.nav-tabs.nav-justified > li > a, .nav-tabs.nav-justified > li > a:hover, .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover {
+
+.nav-tabs.nav-justified > li > a,
+.nav-tabs.nav-justified > li > a:hover,
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover {
   border: none; }
+
 .nav-tabs .dropdown-menu {
   margin-top: 0; }
 
@@ -221,6 +227,7 @@ select.form-control {
 
 .list-group-item {
   padding: 15px; }
+
 .list-group-item-text {
   color: #bbb; }
 
@@ -278,6 +285,9 @@ img {
 .navbar {
   z-index: 1; }
 
+p {
+  text-align: justify; }
+
 hr {
   margin: 0;
   padding: 0; }
@@ -285,22 +295,19 @@ hr {
     hr {
       margin-top: 15px; } }
 
-.img-profile {
-  width: 15%;
-  float: left;
-  margin-right: 5%; }
-
-.img-profile img {
-  width: 100%;
-  height: auto;
-  -webkit-border-radius: 60px;
-  border-radius: 60px; }
+@media (max-width: 768px) {
+  .img-profile {
+    text-align: center; } }
 
 @media (max-width: 768px) {
   .name-role {
     text-align: center; }
     .name-role p {
       text-align: center; } }
+
+@media (min-width: 768px) {
+  .contact-details {
+    text-align: right; } }
 
 @media (max-width: 768px) {
   .contact-details {
@@ -309,4 +316,10 @@ hr {
 .print {
   display: none; }
 
-/*# sourceMappingURL=main.css.map */
+.experienceTitle {
+  margin-bottom: 1%; }
+  .experienceTitle strong {
+    font-size: medium; }
+
+.experienceDetails {
+  margin-bottom: 3%; }
