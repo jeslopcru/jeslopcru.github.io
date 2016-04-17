@@ -11,8 +11,7 @@
   <div ng-show="!projectsCtrl.toggle">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <div class="bs-callout bs-callout-info" ng-repeat="project in informations.projects">
-        <span><strong><a href="{{project.url || 'javascript:void(0)'}}" target="{{project.url ? '_blank':'javascript:void(0)'}}">{{project.title}}</a></strong>, {{project.client}}</span>
-        <span class="text-grey-color">({{project.from | date : 'MM/yyyy'}} {{'T_TO' | translate}} {{project.to | date : 'MM/yyyy'}})</span>
+        <span><strong><a ng-href="{{project.url || 'javascript:void(0)'}}" target="{{project.url ? '_blank':'javascript:void(0)'}}">{{project.title}}</a></strong></span>
         <p>{{project.description}}</p>
         <p class="text-grey-color">{{'T_TECHNOLOGIES' | translate}}: {{project.technologies.slice(0, -1).join(', ')}} {{'T_AND' | translate}} {{project.technologies.slice(-1).join(', ')}}</p>
       </div>
