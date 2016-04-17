@@ -42,7 +42,6 @@
       "details": [
         "Desarrollo de módulos y componentes",
         "Integración con servicios de terceros (OAuth, ZED-MSCP, billings)",
-        "Integración con operadoras de telecomunicaciones",
         "Testing y calidad",
         "Generación y automatización de informes",
         "Maquetación en dispositivos móviles"
@@ -60,10 +59,9 @@
       },
       "description": "Desarrollo y gestión de aplicaciones web, portales corporativos y tiendas online basados en la plataforma Joomla.",
       "details": [
-        "Customización de módulos y componentes Joomla",
-        "Desarrollo de módulos y componentes propios",
+        "Customización de módulos y componentes Joomla, junto con el desarrollo de módulos propios",
         "Desarrollo pasarela de pagos (ClearOne, Paypal)",
-        "Integración de portales con otros sistemas",
+        "Integración con sistemas externos",
         "Maquetación"
       ],
       "stack": "PHP, Joomla, MySQL, SQL, Subversion, HTML, JQuery y CSS."
@@ -79,7 +77,6 @@
       "description": "Beca como técnico de automatización y testing. Dentro de mis tareas estaban la ejecución y automatización de pruebas tecnológicas. Reporte de incidencias. Aseguramiento de la calidad, integridad y seguridad del software.",
       "details": [
         "Automatización de pruebas funcionales",
-        "Documentación",
         "Hacking ético",
         "Reporte de incidencias"
       ],
@@ -96,8 +93,7 @@
       "description": "Beca técnico en soporte funcional en el Grupo Vocento (Madrid). Formaba parte del equipo de soporte funcional.",
       "details": [
         "Análisis, diagnóstico, gestión y resolución de incidencias.",
-        "Contacto directo con los diferentes usuarios y proveedores.",
-        "El uso de diferentes herramientas: sistemas de gestión de contenidos (Methode,Wordpress, Disqus, ...), herramientas de ticketting (Jira, Redmine,...), etc."
+        "Contacto directo con los diferentes usuarios y proveedores."
       ],
       "tools": "Methode, Wordpress, Disqus, XML, XSLT, HTML, PHP, FTP, monitorización de los sistemas, Jira, Redmine, Sistemas de ticketing propios, SSH, Windows, Linux."
     },
@@ -112,9 +108,7 @@
       "description": "Beca Tester aplicaciones web.",
       "details": [
         "Ejecución de las pruebas (sistemas, regresión, integración)",
-        "Documentación de las pruebas realizadas",
-        "Reporte de las incidencias durante las pruebas",
-        "Tecnológicamente utilizar las herramientas: HP Quality Center, SoapUI, Bugzilla, SQL Developer, Heidi SQL."
+        "Reporte de las incidencias durante las pruebas"
       ],
       "tools": "HP Quality Center, SoapUI, SQL Developer, Heidi SQL, Microsoft SQL Server."
     }
@@ -164,7 +158,7 @@
       "from": "2011",
       "to": "2011",
       "at": "Universidad Pontificia de Salamanca Campus Madrid",
-      "description": "Durante el curso 2011/2012 disfruté de una beca SICUE/Séneca para complementar mis estudios. Algunos proyectos desarrollados durante el año fueron: Aplicación web para smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3)."
+      "description": "Algunos proyectos desarrollados durante el año fueron: Aplicación web para smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3)."
     }
   ],
   "certifications": [

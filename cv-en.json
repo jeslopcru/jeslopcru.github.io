@@ -44,13 +44,11 @@
       "details": [
         "Implementing modules and component using PHP, Symfony, Varnish and Java",
         "Integration with third party services (OAuth, ZED-MSCP, telecommunications billing, ... )",
-        "Integration with broadband and telecommunications providers.",
-        "Testing and quality",
-        "Generation and automation of reports using BI",
-        "Layout on mobile devices"
+        "Generation and automation of reports",
+        "Testing and quality and layout on mobile devices"
       ],
       "tools": "Jira, Confluence, Fisheye  Using agile methodology like Scrum and Kanban ",
-      "stack": "Xubuntu, PHP (Symfony), PHPUnit, Wordpress, MySQL, Java (Spring framework), Maven, Apache, Memcached, Jenkins, Selenium, ActiveMQ, Mercurial, Capistrano, Varnish,Vagrant, Graylog"
+      "stack": "Xubuntu, PHP (Symfony), PHPUnit, Wordpress, MySQL, Java (Spring framework), Maven, Apache, Memcached, Jenkins, Selenium, ActiveMQ, Mercurial, Capistrano, Varnish, Vagrant, Graylog"
     },
     {
       "title": "Software Development",
@@ -64,8 +62,7 @@
       "details": [
         "Develop modules and Joomla custom components.",
         "Development payment gateway (ClearOne, Paypal)",
-        "Integration with other systems",
-        "Layout, Security."
+        "Integration with other systems"
       ],
       "stack": "PHP, Joomla, IIS, MySQL, SQL, Subversion, HTML, JQuery y CSS."
     },
@@ -79,8 +76,7 @@
       },
       "description": "Work were the implementation and automation tests. Report incidents. Quality assurance, integrity and security of software.",
       "details": [
-        "Fucntional test automatization",
-        "Documentation",
+        "Functional test automatization",
         "Ethical Hacking",
         "Incident Report"
       ],
@@ -91,7 +87,7 @@
       "from": "2011-11",
       "to": "2012-01",
       "company": {
-        "name": "Avalon tecnologías de la Información",
+        "name": "Avalon Tecnologías de la Información",
         "url": "http://www.grupoavalon.es/es"
       },
       "description": "Part of the team of functional support, carrying out support tasks and maintenance for the digital press portals of the group. (ABC newspaper and 12 regional dailies)",
@@ -100,7 +96,7 @@
         "Direct contact with the various users and providers.",
         "Using different tools like Content System Management (Methode, Wordpress and internal tools), Ticketing tools (Jira, Redmine,...), provider system ( Brightcove, Disqus, Comscore)"
       ],
-      "tools": "Methode, Wordpress, Disqus, XML, XSLT, HTML, PHP, FTP, sytem monitorization, Jira, Redmine, Sistemas de ticketing propios, SSH, Windows, Linux."
+      "tools": "Methode, Wordpress, Disqus, XML, XSLT, HTML, PHP, FTP, Jira, Redmine, SSH, Windows, Linux."
     },
     {
       "title": "Web application tester trainee",
@@ -113,11 +109,10 @@
       "description": "Web application tester trainee",
       "details": [
         "Work with SoapUI and SQL to make the tests for different web services.",
-        "Documentación de las pruebas realizadas",
         "Analyze logs and traces to give more information about the bug.",
-        "Report and track the bugs using the correct tools as Bugzilla or HP Quality Center and write the test plans."
+        "Report and track the bugs and write the test plans."
       ],
-      "tools": "HP Quality Center, SoapUI, SQL Developer, Heidi SQL, Microsoft SQL Server."
+      "tools": "SoapUI, SQL Developer,Bugzilla, HP Quality Center, Heidi SQL, Microsoft SQL Server."
     }
   ],
   "projects": {
@@ -165,7 +160,7 @@
       "from": "2011",
       "to": "2011",
       "at": "Universidad Pontificia de Salamanca Campus Madrid",
-      "description": "During the course 2011/2012 I enjoyed a SICUE / Seneca scholarship for my studies. Some projects developed during the year were: Web application for smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3)."
+      "description": "Some projects developed during the year were: Web application for smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3)."
     }
   ],
   "certifications": [
