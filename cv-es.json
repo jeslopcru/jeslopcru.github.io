@@ -1,0 +1,171 @@
+{
+  "personal_information": {
+    "name": "Jesús",
+    "surname": "López de la Cruz",
+    "web": "http://jesuslc.com",
+    "email": " jeslopcru [at] gmail.com",
+    "social_contacts": {
+      "twitter": "JesLopCru",
+      "linkedin": "jesuslc",
+      "github": "jeslopcru"
+    },
+    "location": "Madrid, Spain"
+  },
+  "summary": "Me llamo Jesús López, soy ingeniero en informática y un apasionado de la programación. Me considero una persona inquieta, curiosa y minuciosa en las cosas que hago. Cada vez que puedo intento seguir investigando y los descubrimientos los escribo en <a href='http://jesuslc.com'>jesuslc.com</a>.",
+  "professional_experience": [
+    {
+      "title": "Ingeniero de software",
+      "from": "2015-02",
+      "to": "actualidad",
+      "company": {
+        "name": "Coches.com",
+        "url": "http://www.coches.com/"
+      },
+      "description": "Desarrollo y mejora continua de los productos y procesos de la compañía, con una orientación centrada en el usuario final.",
+      "details": [
+        "Desarrollo de nuevas funcionalidades en un entorno ágil utilizando como pilares la comunicación (tanto con el equipo como con los stakeholders) y la mejora continua apoyado en herramientas como Jira, Jira Service Desk,  Confluence, Bitbucket.",
+        "Proceso de desarrollo apoyado en test (TDD) y code reviews, utilizando Git(gitflow) con la ayuda de frameworks como Yii/Yii2 para las diferentes plataformas web.",
+        "Agile utilizando Scrum, adaptandonos rápidamente a los cambios del negocio."
+      ],
+      "tools": "Jira, Confluence, Bitbucket, Jenkins, Git (Gitflow).",
+      "stack": "PHP (Yii, Yii2), HTML, CSS, Javascript, JQuery, Bootstrap, Varnish, Vagrant, Jenkins, MariaDB."
+    },
+    {
+      "title": "Ingeniero software",
+      "from": "2013-09",
+      "to": "2015-02",
+      "company": {
+        "name": "Genexies Mobile",
+        "url": "http://www.genexies.com/"
+      },
+      "description": "Desarrollador de una plataforma de gestión de contenidos digitales para dispositivos móviles.",
+      "details": [
+        "Desarrollo de módulos y componentes",
+        "Integración con servicios de terceros (OAuth, ZED-MSCP, billings)",
+        "Testing y calidad",
+        "Generación y automatización de informes",
+        "Maquetación en dispositivos móviles"
+      ],
+      "tools": "Jira, Confluence, Fisheye, utilizadas con metodologías ágiles (Scrum y Kanban)",
+      "stack": "Xubuntu, PHP (Symfony), PHPUnit, Wordpress, MySQL, Java (Spring framework), Maven, Apache, Memcached, Jenkins, Selenium, ActiveMQ, Mercurial, Capistrano, Varnish,Vagrant, Graylog"
+    },
+    {
+      "title": "Desarrollador de Software",
+      "from": "2012-06",
+      "to": "2013-01",
+      "company": {
+        "name": "Zinetic",
+        "url": "http://www.zinetic.es/"
+      },
+      "description": "Desarrollo y gestión de aplicaciones web, portales corporativos y tiendas online basados en la plataforma Joomla.",
+      "details": [
+        "Customización de módulos y componentes Joomla, junto con el desarrollo de módulos propios",
+        "Desarrollo pasarela de pagos (ClearOne, Paypal)",
+        "Integración con sistemas externos",
+        "Maquetación"
+      ],
+      "stack": "PHP, Joomla, MySQL, SQL, Subversion, HTML, JQuery y CSS."
+    },
+    {
+      "title": "Beca en departamento de Calidad y Automatización",
+      "from": "2012-03",
+      "to": "2012-06",
+      "company": {
+        "name": "Meta4",
+        "url": "http://www.meta4.es/"
+      },
+      "description": "Beca como técnico de automatización y testing. Dentro de mis tareas estaban la ejecución y automatización de pruebas tecnológicas. Reporte de incidencias. Aseguramiento de la calidad, integridad y seguridad del software.",
+      "details": [
+        "Automatización de pruebas funcionales",
+        "Hacking ético",
+        "Reporte de incidencias"
+      ],
+      "tools": "w3af, Selenium, Firefox (TamperData, HackBar, XSS Me, SQL Inject Me), herramientas internas para seguimiento de bugs y documentación."
+    },
+    {
+      "title": "Beca Técnico de soporte funcional",
+      "from": "2011-11",
+      "to": "2012-01",
+      "company": {
+        "name": "Avalon tecnologías de la Información",
+        "url": "http://www.grupoavalon.es/es"
+      },
+      "description": "Beca técnico en soporte funcional en el Grupo Vocento (Madrid). Formaba parte del equipo de soporte funcional.",
+      "details": [
+        "Análisis, diagnóstico, gestión y resolución de incidencias.",
+        "Contacto directo con los diferentes usuarios y proveedores."
+      ],
+      "tools": "Methode, Wordpress, Disqus, XML, XSLT, HTML, PHP, FTP, monitorización de los sistemas, Jira, Redmine, Sistemas de ticketing propios, SSH, Windows, Linux."
+    },
+    {
+      "title": "Beca Tester de aplicaciones web",
+      "from": "2011-06",
+      "to": "2011-10",
+      "company": {
+        "name": "Atos",
+        "url": "http://es.atos.net/es-es/home.html"
+      },
+      "description": "Beca Tester aplicaciones web.",
+      "details": [
+        "Ejecución de las pruebas (sistemas, regresión, integración)",
+        "Reporte de las incidencias durante las pruebas"
+      ],
+      "tools": "HP Quality Center, SoapUI, SQL Developer, Heidi SQL, Microsoft SQL Server."
+    }
+  ],
+  "projects": {
+    "LegacyCode": {
+      "title": "LegacyCode",
+      "url": "https://github.com/jeslopcru/LegacyCode",
+      "description": "Como desarrollador, muchas veces tenemos que trabajar con código antiguo, sin tests y a veces con una organización un tanto confusa. Para aprender y practicar distintas técnicas comencé el proyecto Legacy Code, además en el blog se pueden ver una serie de entradas donde refactorizar por completo esta aplicación legacy escrita en PHP.",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Git"
+      ]
+    },
+    "PHP Coding Dojo": {
+      "title": "PHP Coding Dojo",
+      "url": "https://github.com/jeslopcru/php-coding-dojo",
+      "description": "Me gusta mejorar mis habilidades como programador y creo que las katas de código son una buena manera de hacerlo. Cada vez que puedo intento ir a coding dojos y meetups. En este repositorio puedes encontrar un pequeño proyecto con distintas katas y soluciones para aprender",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Mockery",
+        "Git"
+      ]
+    },
+    "VarnishAdmin": {
+      "title": "​VarnishAdmin",
+      "url": "https://github.com/jeslopcru/VarnishAdmin",
+      "description": "Varnish Cache es un acelerador de aplicaciones web, también conocido como caché de proxy HTTP inversa. Utilizando VarnishAdmin podemos conectarnos a varnishadm utilizando PHP y sockets para interactuar enviando purges de url, viendo el estado de Varnish,...",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Git",
+        "Varnish"
+      ]
+    }
+  },
+  "education": [
+    {
+      "name": "Ingeniero en Informática",
+      "at": "Universidad de Sevilla",
+      "description": "Algunos proyectos desarrollados durante la carrera: Reconocimiento lingüistico para el diario de sesiones de Congreso de los Diputados (Java: Lucene, Solr, Python: NLTK). Proyecto Fin de carrera: Red social privada para rehabilitación de pacientes (Liferay, Social Office, Java, Spring, Hibernate, Maven y PostgreSQL"
+    },
+    {
+      "name": "Beca SICUE-Séneca: Ingeniero en Informática",
+      "from": "2011",
+      "to": "2011",
+      "at": "Universidad Pontificia de Salamanca Campus Madrid",
+      "description": "Algunos proyectos desarrollados durante el año fueron: Aplicación web para smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3)."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "ITIL Foundation V3",
+      "by": "PEOPLECERT",
+      "when": "2015-03"
+    }
+  ]
+}

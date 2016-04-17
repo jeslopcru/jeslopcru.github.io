@@ -1,0 +1,173 @@
+{
+  "personal_information": {
+    "name": "Jesús",
+    "surname": "López de la Cruz",
+    "web": "http://jesuslc.com",
+    "email": " jeslopcru [at] gmail.com",
+    "social_contacts": {
+      "twitter": "JesLopCru",
+      "linkedin": "jesuslc",
+      "github": "jeslopcru"
+    },
+    "location": "Madrid, Spain"
+  },
+  "summary": "My name is Jesus Lopez, I am a computer engineer and passionate about programming. I consider myself a person restless, curious and careful in the things that I do. Usually I try to further investigate and I write this discoveries at <a href='http://jesuslc.com'>jesuslc.com</a>.",
+  "professional_experience": [
+    {
+      "title": "Software Engineer",
+      "from": "2015-02",
+      "to": "present",
+      "company": {
+        "name": "Coches.com",
+        "url": "http://www.coches.com/"
+      },
+      "description": "Development and continuous improvement to the company's products and services focus on the final users. Technology changes and development methods for improve the process, products.",
+      "details": [
+        "Agile Management using Jira Service Desk and Scrum.",
+        "PHP Development using Yii, Yii2, Boostrap and JQuery.",
+        "Using Varnish for A/B Test",
+        "Development using Wordpress",
+        "Test Driven Design(TDD), Pair Programming, Domain Driven Development (DDD) and Code Review."
+      ],
+      "tools": "Jira, Confluence, Bitbucket, Jenkins, Git (Gitflow).",
+      "stack": "PHP (Yii, Yii2), HTML, CSS, Javascript, JQuery, Bootstrap, Varnish, Vagrant, Jenkins, MariaDB."
+    },
+    {
+      "title": "Software Engineer",
+      "from": "2013-09",
+      "to": "2015-02",
+      "company": {
+        "name": "Genexies Mobile",
+        "url": "http://www.genexies.com/"
+      },
+      "description": "Genexies business is selling digital content (music, games,...) over the Internet for mobile devices and PC.",
+      "details": [
+        "Implementing modules and component using PHP, Symfony, Varnish and Java",
+        "Integration with third party services (OAuth, ZED-MSCP, telecommunications billing, ... )",
+        "Generation and automation of reports",
+        "Testing and quality and layout on mobile devices"
+      ],
+      "tools": "Jira, Confluence, Fisheye  Using agile methodology like Scrum and Kanban ",
+      "stack": "Xubuntu, PHP (Symfony), PHPUnit, Wordpress, MySQL, Java (Spring framework), Maven, Apache, Memcached, Jenkins, Selenium, ActiveMQ, Mercurial, Capistrano, Varnish, Vagrant, Graylog"
+    },
+    {
+      "title": "Software Development",
+      "from": "2012-06",
+      "to": "2013-01",
+      "company": {
+        "name": "Zinetic",
+        "url": "http://www.zinetic.es/"
+      },
+      "description": "Management and development web applications, corporate portals and online stores based on Joomla platform.",
+      "details": [
+        "Develop modules and Joomla custom components.",
+        "Development payment gateway (ClearOne, Paypal)",
+        "Integration with other systems"
+      ],
+      "stack": "PHP, Joomla, IIS, MySQL, SQL, Subversion, HTML, JQuery y CSS."
+    },
+    {
+      "title": "Technical automation and testing trainee",
+      "from": "2012-03",
+      "to": "2012-06",
+      "company": {
+        "name": "Meta4",
+        "url": "http://www.meta4.es/"
+      },
+      "description": "Work were the implementation and automation tests. Report incidents. Quality assurance, integrity and security of software.",
+      "details": [
+        "Functional test automatization",
+        "Ethical Hacking",
+        "Incident Report"
+      ],
+      "tools": "w3af, Selenium, Firefox (TamperData, HackBar, XSS Me, SQL Inject Me), internal tools for bug reporting."
+    },
+    {
+      "title": "Functional support technician (trainee)",
+      "from": "2011-11",
+      "to": "2012-01",
+      "company": {
+        "name": "Avalon Tecnologías de la Información",
+        "url": "http://www.grupoavalon.es/es"
+      },
+      "description": "Part of the team of functional support, carrying out support tasks and maintenance for the digital press portals of the group. (ABC newspaper and 12 regional dailies)",
+      "details": [
+        "Analysis, diagnosis, management and resolution of issues in compliance to SLAs.",
+        "Direct contact with the various users and providers.",
+        "Using different tools like Content System Management (Methode, Wordpress and internal tools), Ticketing tools (Jira, Redmine,...), provider system ( Brightcove, Disqus, Comscore)"
+      ],
+      "tools": "Methode, Wordpress, Disqus, XML, XSLT, HTML, PHP, FTP, Jira, Redmine, SSH, Windows, Linux."
+    },
+    {
+      "title": "Web application tester trainee",
+      "from": "2011-06",
+      "to": "2011-10",
+      "company": {
+        "name": "Atos",
+        "url": "http://es.atos.net/es-es/home.html"
+      },
+      "description": "Web application tester trainee",
+      "details": [
+        "Work with SoapUI and SQL to make the tests for different web services.",
+        "Analyze logs and traces to give more information about the bug.",
+        "Report and track the bugs and write the test plans."
+      ],
+      "tools": "SoapUI, SQL Developer,Bugzilla, HP Quality Center, Heidi SQL, Microsoft SQL Server."
+    }
+  ],
+  "projects": {
+    "LegacyCode": {
+      "title": "LegacyCode",
+      "url": "https://github.com/jeslopcru/LegacyCode",
+      "description": "As a developer, we often work with old code without tests and sometimes with a somewhat confusing organization. To learn and practice different techniques I began the Legacy Code project also blog you can see a series of posts where this application completely refactor legacy written in PHP.",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Git"
+      ]
+    },
+    "PHP Coding Dojo": {
+      "title": "PHP Coding Dojo",
+      "url": "https://github.com/jeslopcru/php-coding-dojo",
+      "description": "I like to improve my skills as a programmer and I think the code katas are a good way to do it. Usually I can try to go to coding dojos and meetups. In this repository you can find a small project with different katas and solutions to learn",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Mockery",
+        "Git"
+      ]
+    },
+    "VarnishAdmin": {
+      "title": "​VarnishAdmin",
+      "url": "https://github.com/jeslopcru/VarnishAdmin",
+      "description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as heavily consumed APIs.  Using VarnishAdmin can connect to varnishadm using PHP and sockets to interact with Varnish. Sending purges url, seeing the state of Varnish, ...",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Git",
+        "Varnish"
+      ]
+    }
+  },
+  "education": [
+    {
+      "name": "Computer Science Engineering",
+      "at": "University of Seville",
+      "description": "Some projects developed during this period: language recognition for the daily session of the 'Congreso de los diputados' (Java Lucene, Solr, Python: NLTK). Undergraduate Thesis Project.: private social network for patients rehab (Liferay Social Office, Java, Spring, Hibernate, Maven and PostgreSQL)"
+    },
+    {
+      "name": "SICUE-Séneca Scolarship: Computer Science Engineering",
+      "from": "2011",
+      "to": "2011",
+      "at": "Universidad Pontificia de Salamanca Campus Madrid",
+      "description": "Some projects developed during the year were: Web application for smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3)."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "ITIL Foundation V3",
+      "by": "PEOPLECERT",
+      "when": "2015-03"
+    }
+  ]
+}

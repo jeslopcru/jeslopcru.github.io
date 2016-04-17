@@ -1,0 +1,49 @@
+<nav class="navbar navbar-static-top">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-right" ng-controller="navBarCtrl">
+      <li>
+        <a href ng-href="{{informations.personal_information.web}}
+        " translate="T_BLOG" target="_blank"></a>
+      </li>
+      <li class="dropdown">
+        <a href class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{currentLanguage | translate}} <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li>
+            <a href ng-click="changeLanguage('es')" translate="T_SPANISH"></a>
+          </li>
+          <li>
+            <a href ng-click="changeLanguage('en')" translate="T_ENGLISH"></a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href ng-href="/{{pdfFile}}" translate="T_DOWNLOAD" target="_blank"></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container cv">
+  <!-- Personal info -->
+  <cv-info></cv-info>
+  
+  <!-- Summary -->
+  <cv-summary></cv-summary>
+  
+  <!-- Skills -->
+  <!-- <cv-skills></cv-skills> -->
+  
+  <!-- Work experiences -->
+  <cv-experiences></cv-experiences>
+  
+  <!-- Projects -->
+  <cv-projects></cv-projects>
+  
+  <!-- Certifications -->
+  <cv-certifications></cv-certifications>
+  
+  <!-- Languages -->
+  <!-- <cv-languages></cv-languages> -->
+  
+  <!-- Education -->
+  <cv-education></cv-education>
+</div>
