@@ -21,10 +21,11 @@
     "gulp-watch": "^3.0.0",
     "http-server": "^0.7.4",
     "run-sequence": "^1.1.4"
+
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "javi@javisr.net",
+  "author": "jeslopcru@gmail.com",
   "license": "MIT"
 }
