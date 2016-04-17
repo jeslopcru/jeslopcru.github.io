@@ -12,7 +12,7 @@ xmp, textarea {
   display: none;
 }
 h1, h2, h3, h4 {
-  margin: 15px 0;
+  margin: 15px 0 15px 0;
 }
 pre {
   margin: 20px 0;
@@ -33,6 +33,7 @@ hr {
     margin-top: 15px;
   }
 }
+
 .img-profile {
   @extend .col-lg-3;
   @extend .col-md-3;
@@ -41,6 +42,8 @@ hr {
   @media (max-width: $screen-sm-min) {
     text-align: center;
   }
+
+  float:right;
 }
 .name-role {
   @extend .col-sm-6;
@@ -56,22 +59,22 @@ hr {
   @extend .col-sm-3;
   @extend .col-xs-12;
   @media (min-width: $screen-sm-min) {
-    text-align: right;
+    text-align: left;
   }
   @media (max-width: $screen-sm-min) {
     text-align: center;
   }
 }
+
 .print {
   display: none;
 }
 
-.experienceTitle{
-  margin-bottom: 1%;
+.title{
   strong{
     font-size: medium;  
   }
 }
-.experienceDetails{
-  margin-bottom: 3%;
+.details{
+  margin-bottom: 2%;
 }

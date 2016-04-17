@@ -1,6 +1,9 @@
 @import 'paper-variables.scss';
 @import "paper-variables-pdf.scss";
-//@import 'paper-bootswatch.scss';
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+@import "../bower_components/fontawesome/scss/font-awesome.scss";
+@import '../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss';
+@import 'paper-bootswatch.scss';
 @import 'styles.scss';
 body {
   padding-top: 20px;
