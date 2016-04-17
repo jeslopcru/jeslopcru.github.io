@@ -34,7 +34,7 @@ If you would like it to regenerate as you update the styles use:
 Or you can use it:
 
 ```
-	$ $ docker exec cv-github gulp watch
+	$ docker exec cv-github gulp watch
 ```
 
 
@@ -46,8 +46,24 @@ Then you can run the following to generate the pdf override styles and the pdf i
 
 ```
 	$ docker exec cv-github gulp pdfsass
-	
+
 	$ wkhtmltopdf --margin-left 15 --margin-right 15 --zoom 1.0 --viewport-size 980x1024 http://docker.dev:8080/\#/en curriculum-jesuslc-en.pdf
 
 	$ wkhtmltopdf --margin-left 15 --margin-right 15 --zoom 1.0 --viewport-size 980x1024 http://docker.dev:8080/\#/es curriculum-jesuslc-es.pdf
 ```
+
+
+## Some useful Docker commands
+
+- Start/Stop docker-machine: `$ docker-machine start ` / `$ docker-machine stop`
+- Knows IP docker-machine: `$ docker-machine env`
+- knows shared path and size in docker-machine `$ docker-machine ssh default 'df -h'`
+
+- Start/Stop docker container: `$ docker start <containerid>` / `$ docker stop <containerid>`
+- view all docker containers: `$ docker ps -a`
+- Run a command inside a container: `$ docker exec <containerid> <command>` ==> `$ docker exec cv-github ls`
+- Copy a file inside a container `$ docker cp <file>  <containerid>:<path>` ==> `docker cp hola.txt  38a0c40a313e:/app`
+
+Clean Docker (http://magmax.org/blog/limpiando-dockers-antiguos/)
+- Delete not started containers `$ docker rm $(docker ps -a | awk '{print $1}')`
+- Delete not started images `$ docker rmi $(docker images | awk '{print $1":"$2}')`
