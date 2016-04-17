@@ -2,6 +2,7 @@ var gulp = require('gulp'),
   gulpLoadPlugins = require('gulp-load-plugins'),
   plugins = gulpLoadPlugins(),
   runSequence = require('run-sequence');
+
 var files = {
   mainStylesheet: 'stylesheets/main.scss',
   pdfStylesheet: 'stylesheets/pdf.scss',
@@ -11,6 +12,7 @@ var files = {
   index: 'index.html',
   json: '*.json'
 };
+
 
 gulp.task('clean', function() {
   return gulp.src('css')
@@ -24,7 +26,7 @@ gulp.task('sass', ['clean'], function() {
       console.log(error);
     })
     .pipe(gulp.dest('css'));
-});
+  });
 
 gulp.task('pdfsass', ['clean'], function() {
   return gulp.src(files.pdfStylesheet)
