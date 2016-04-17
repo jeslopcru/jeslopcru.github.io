@@ -12,15 +12,6 @@
     "location": "Madrid, Spain"
   },
   "summary": "Me llamo Jesús López, soy ingeniero en informática y un apasionado de la programación. Me considero una persona inquieta, curiosa y minuciosa en las cosas que hago. Cada vez que puedo intento seguir investigando y los descubrimientos los escribo en <a href='http://jesuslc.com'>jesuslc.com</a>.",
-   "skills": [{
-    "name": "Javascript",
-    "level": 8
-},
-{
-    "name": "Javadddddscript",
-    "level": 1
-}
-],
   "professional_experience": [
     {
       "title": "Ingeniero de software",
@@ -126,25 +117,60 @@
         "Tecnológicamente utilizar las herramientas: HP Quality Center, SoapUI, Bugzilla, SQL Developer, Heidi SQL."
       ],
       "tools": "HP Quality Center, SoapUI, SQL Developer, Heidi SQL, Microsoft SQL Server."
-
     }
   ],
+  "projects": {
+    "LegacyCode": {
+      "title": "LegacyCode",
+      "url": "https://github.com/jeslopcru/LegacyCode",
+      "description": "Como desarrollador, muchas veces tenemos que trabajar con código antiguo, sin tests y a veces con una organización un tanto confusa. Para aprender y practicar distintas técnicas comencé el proyecto Legacy Code, además en el blog se pueden ver una serie de entradas donde refactorizar por completo esta aplicación legacy escrita en PHP.",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Git"
+      ]
+    },
+    "PHP Coding Dojo": {
+      "title": "PHP Coding Dojo",
+      "url": "https://github.com/jeslopcru/php-coding-dojo",
+      "description": "Me gusta mejorar mis habilidades como programador y creo que las katas de código son una buena manera de hacerlo. Cada vez que puedo intento ir a coding dojos y meetups. En este repositorio puedes encontrar un pequeño proyecto con distintas katas y soluciones para aprender",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Mockery",
+        "Git"
+      ]
+    },
+    "VarnishAdmin": {
+      "title": "​VarnishAdmin",
+      "url": "https://github.com/jeslopcru/VarnishAdmin",
+      "description": "Varnish Cache es un acelerador de aplicaciones web, también conocido como caché de proxy HTTP inversa. Utilizando VarnishAdmin podemos conectarnos a varnishadm utilizando PHP y sockets para interactuar enviando purges de url, viendo el estado de Varnish,...",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Git",
+        "Varnish"
+      ]
+    }
+  },
   "education": [
     {
       "name": "Ingeniero en Informática",
-      "at": "Universidad de Sevilla"
+      "at": "Universidad de Sevilla",
+      "description": "Algunos proyectos desarrollados durante la carrera: Reconocimiento lingüistico para el diario de sesiones de Congreso de los Diputados (Java: Lucene, Solr, Python: NLTK). Proyecto Fin de carrera: Red social privada para rehabilitación de pacientes (Liferay, Social Office, Java, Spring, Hibernate, Maven y PostgreSQL"
     },
     {
       "name": "Beca SICUE-Séneca: Ingeniero en Informática",
       "from": "2011",
       "to": "2011",
-      "at": "Universidad Pontificia de Salamanca Campus Madrid"
+      "at": "Universidad Pontificia de Salamanca Campus Madrid",
+      "description": "Durante el curso 2011/2012 disfruté de una beca SICUE/Séneca para complementar mis estudios. Algunos proyectos desarrollados durante el año fueron: Aplicación web para smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3)."
     }
   ],
-  "couses": [
+  "certifications": [
     {
       "title": "ITIL Foundation V3",
-      "from": "PEOPLECERT",
+      "by": "PEOPLECERT",
       "when": "2015-03"
     }
   ]

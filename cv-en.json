@@ -8,248 +8,171 @@
       "twitter": "JesLopCru",
       "linkedin": "jesuslc",
       "github": "jeslopcru"
-  },
+    },
     "location": "Madrid, Spain"
   },
-  "summary": "As a web application expert developer, with more than three years of experience, I have been involved in almost all development states of a project such as analysis, architecture and backend and frontend development. I consider  myself a self-taught person in continuous training and I have focused my career in the frontend technologies especially Javascript, AngularJS and Google Maps. <br>For last two years I have improve my professionals skills by working on international projects for companies like HP, Ryanair or Virgins Trains.",
-  "skills": [{
-    "name": "Javascript",
-    "level": 8
-  }, {
-    "name": "NodeJS",
-    "level": 5
-  }, {
-    "name": "AngularJS",
-    "level": 8
-  }, {
-    "name": "jQuery",
-    "level": 7
-  }, {
-    "name": "PHP",
-    "level": 7
-  }, {
-    "name": "Drupal",
-    "level": 7
-  }, {
-    "name": "Bootstrap",
-    "level": 4
-  }, {
-    "name": "HTML5",
-    "level": 5
-  }],
-  "languages": {
-    "en": {
-      "name": "English",
-      "level": 3,
-      "certificate": "Cambridge ESOL Preliminary English Test (PET)",
-      "text_level": "B1 - Intermediate"
+  "summary": "My name is Jesus Lopez, I am a computer engineer and passionate about programming. I consider myself a person restless, curious and careful in the things that I do. Usually I try to further investigate and I write this discoveries at <a href='http://jesuslc.com'>jesuslc.com</a>.",
+  "professional_experience": [
+    {
+      "title": "Software Engineer",
+      "from": "2015-02",
+      "to": "present",
+      "company": {
+        "name": "Coches.com",
+        "url": "http://www.coches.com/"
+      },
+      "description": "Development and continuous improvement to the company's products and services focus on the final users. Technology changes and development methods for improve the process, products.",
+      "details": [
+        "Agile Management using Jira Service Desk and Scrum.",
+        "PHP Development using Yii, Yii2, Boostrap and JQuery.",
+        "Using Varnish for A/B Test",
+        "Development using Wordpress",
+        "Test Driven Design(TDD), Pair Programming, Domain Driven Development (DDD) and Code Review."
+      ],
+      "tools": "Jira, Confluence, Bitbucket, Jenkins, Git (Gitflow).",
+      "stack": "PHP (Yii, Yii2), HTML, CSS, Javascript, JQuery, Bootstrap, Varnish, Vagrant, Jenkins, MariaDB."
     },
-    "es": {
-      "name": "Spanish",
-      "level": 5,
-      "text_level": "Native language"
+    {
+      "title": "Software Engineer",
+      "from": "2013-09",
+      "to": "2015-02",
+      "company": {
+        "name": "Genexies Mobile",
+        "url": "http://www.genexies.com/"
+      },
+      "description": "Genexies business is selling digital content (music, games,...) over the Internet for mobile devices and PC.",
+      "details": [
+        "Implementing modules and component using PHP, Symfony, Varnish and Java",
+        "Integration with third party services (OAuth, ZED-MSCP, telecommunications billing, ... )",
+        "Integration with broadband and telecommunications providers.",
+        "Testing and quality",
+        "Generation and automation of reports using BI",
+        "Layout on mobile devices"
+      ],
+      "tools": "Jira, Confluence, Fisheye  Using agile methodology like Scrum and Kanban ",
+      "stack": "Xubuntu, PHP (Symfony), PHPUnit, Wordpress, MySQL, Java (Spring framework), Maven, Apache, Memcached, Jenkins, Selenium, ActiveMQ, Mercurial, Capistrano, Varnish,Vagrant, Graylog"
+    },
+    {
+      "title": "Software Development",
+      "from": "2012-06",
+      "to": "2013-01",
+      "company": {
+        "name": "Zinetic",
+        "url": "http://www.zinetic.es/"
+      },
+      "description": "Management and development web applications, corporate portals and online stores based on Joomla platform.",
+      "details": [
+        "Develop modules and Joomla custom components.",
+        "Development payment gateway (ClearOne, Paypal)",
+        "Integration with other systems",
+        "Layout, Security."
+      ],
+      "stack": "PHP, Joomla, IIS, MySQL, SQL, Subversion, HTML, JQuery y CSS."
+    },
+    {
+      "title": "Technical automation and testing trainee",
+      "from": "2012-03",
+      "to": "2012-06",
+      "company": {
+        "name": "Meta4",
+        "url": "http://www.meta4.es/"
+      },
+      "description": "Work were the implementation and automation tests. Report incidents. Quality assurance, integrity and security of software.",
+      "details": [
+        "Fucntional test automatization",
+        "Documentation",
+        "Ethical Hacking",
+        "Incident Report"
+      ],
+      "tools": "w3af, Selenium, Firefox (TamperData, HackBar, XSS Me, SQL Inject Me), internal tools for bug reporting."
+    },
+    {
+      "title": "Functional support technician (trainee)",
+      "from": "2011-11",
+      "to": "2012-01",
+      "company": {
+        "name": "Avalon tecnologías de la Información",
+        "url": "http://www.grupoavalon.es/es"
+      },
+      "description": "Part of the team of functional support, carrying out support tasks and maintenance for the digital press portals of the group. (ABC newspaper and 12 regional dailies)",
+      "details": [
+        "Analysis, diagnosis, management and resolution of issues in compliance to SLAs.",
+        "Direct contact with the various users and providers.",
+        "Using different tools like Content System Management (Methode, Wordpress and internal tools), Ticketing tools (Jira, Redmine,...), provider system ( Brightcove, Disqus, Comscore)"
+      ],
+      "tools": "Methode, Wordpress, Disqus, XML, XSLT, HTML, PHP, FTP, sytem monitorization, Jira, Redmine, Sistemas de ticketing propios, SSH, Windows, Linux."
+    },
+    {
+      "title": "Web application tester trainee",
+      "from": "2011-06",
+      "to": "2011-10",
+      "company": {
+        "name": "Atos",
+        "url": "http://es.atos.net/es-es/home.html"
+      },
+      "description": "Web application tester trainee",
+      "details": [
+        "Work with SoapUI and SQL to make the tests for different web services.",
+        "Documentación de las pruebas realizadas",
+        "Analyze logs and traces to give more information about the bug.",
+        "Report and track the bugs using the correct tools as Bugzilla or HP Quality Center and write the test plans."
+      ],
+      "tools": "HP Quality Center, SoapUI, SQL Developer, Heidi SQL, Microsoft SQL Server."
     }
-  },
-  "professional_experience": [{
-    "title": "Software ",
-    "from": "2015-02-09",
-    "to": "present",
-    "company": {
-      "name": "Snowdrop Solutions",
-      "url": "http://www.snowdropsolutions.co.uk/"
-    },
-    "description": "Developer of widgets and web applications, based on Google and Javascript technologies like AngularJS and Google Maps V3.",
-    "projects": ["ryanair_routemap", "letmemap", "vt_jp", "jll", "inmarsat_coverage"]
-  }, {
-    "title": "Javascript and Drupal Senior Developer",
-    "from": "2014-09-01",
-    "to": "present",
-    "company": {
-      "name": "Emergya",
-      "url": "http://www.emergya.es/"
-    },
-    "description": "Corporative website, based on Drupal, Javascript architect and developer.",
-    "projects": ["hp_ipt"]
-  }, {
-    "title": "Drupal and Javascript Junior Developer",
-    "from": "2013-06-03",
-    "to": "2014-08-31",
-    "company": {
-      "name": "Emergya",
-      "url": "http://www.emergya.es/"
-    },
-    "description": "Back-end and front-end developer of corporative websites based on Drupal.",
-    "projects": ["hp_assethub"]
-  }, {
-    "title": "Drupal Internship",
-    "from": "2012-10-22",
-    "to": "2013-06-02",
-    "company": {
-      "name": "Emergya",
-      "url": "http://www.emergya.es/"
-    },
-    "description": "Back-end developer of corporative websites based on Drupal.",
-    "projects": ["cexma", "acd", "gva"]
-  }],
+  ],
   "projects": {
-    "eurostar": {
-      "title": "​Eurostar Livemap",
-      "client": "​Eurostar (UK)",
-      "from": "2015-08-15",
-      "to": "present",
-      "role": "Senior Developer",
-      "description": "​Widget for the visualization of Eurostar hight speed train position and customer defined interest points deployed inside the entertaiment train system.",
-      "technologies": ["JavaScript", "AngularJS", "Less", "Git", "Google Maps API v3", "Google Maps Static API", "turfjs", "GeoJSON", "SCRUM"]
+    "LegacyCode": {
+      "title": "LegacyCode",
+      "url": "https://github.com/jeslopcru/LegacyCode",
+      "description": "As a developer, we often work with old code without tests and sometimes with a somewhat confusing organization. To learn and practice different techniques I began the Legacy Code project also blog you can see a series of posts where this application completely refactor legacy written in PHP.",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Git"
+      ]
     },
-    "ryanair_routemap": {
-      "title": "​Ryanair RouteMap",
-      "client": "​Ryanair (IRL)",
-      "from": "2015-07-01",
-      "to": "present",
-      "role": "Senior Developer",
-      "description": "​Widget for the visualization of Ryanair routes. This widget allows users to select and access to the booking system from the map.",
-      "technologies": ["JavaScript", "AngularJS", "D3.js", "Less", "Git", "Google Maps API v3", "SCRUM"]
+    "PHP Coding Dojo": {
+      "title": "PHP Coding Dojo",
+      "url": "https://github.com/jeslopcru/php-coding-dojo",
+      "description": "I like to improve my skills as a programmer and I think the code katas are a good way to do it. Usually I can try to go to coding dojos and meetups. In this repository you can find a small project with different katas and solutions to learn",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Mockery",
+        "Git"
+      ]
     },
-    "PlanAvanza-SnowdropTools": {
-      "title": "​Snowdrop Tools",
-      "client": "Snowdrop Solutions (UK)",
-      "from": "2015-02-01",
-      "to": "present",
-      "role": "Senior Developer",
-      "description": "​R+D project for widget generation by users. The widget could be configured to have map's  advanced searching tools",
-      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "CartoDB", "Google AppEngine", "SCRUM", "Java", "Maven"]
-    },
-    "nrhs": {
-      "title": "​NetworkRail High Speed (UK)",
-      "client": "NetworkRail High Speed (UK)",
-      "from": "2015-02-01",
-      "to": "2015-06-01",
-      "role": "Senior Developer",
-      "description": "​GIS system project for the UK hight speed train elements management and visualization.",
-      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Google MapsEngine", "Google AppEngine", "SCRUM", "Java", "Spring", "Maven"]
-    },
-    "vt_jp": {
-      "title": "VT-JourneyPlanner",
-      "client": "Virgin Trains (UK)",
-      "from": "2015-03-01",
-      "to": "2015-06-01",
-      "role": "Senior Developer",
-      "description": "​Journey planner widget based on Google Maps for the new Virgin Trains's website.",
-      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Bootstrap", "Less", "SCRUM"]
-    },
-    "jll": {
-      "title": "​JLL Enhanced GIS Viewer",
-      "client": "JLL (UK)",
-      "from": "2015-02-01",
-      "to": "2015-04-01",
-      "role": "Senior Developer",
-      "description": "​Widget for the JLL data visualization. The widget includes some advanced searching tools in the map.",
-      "technologies": ["JavaScript", "Grunt", "Git", "Google Maps API v3", "Google MapsEngine", "Google AppEngine", "SCRUM"]
-    },
-    "hp_ipt": {
-      "title": "​Image Process Transformation",
-      "client": "Hewlett Packard",
-      "from": "2014-09-01",
-      "to": "2015-02-01",
-      "role": "Senior Developer",
-      "description": "​Deployment tool for the images of HP's advertising campaigns.",
-      "technologies": ["Drupal", "jQuery", "JavaScript", "PHP", "Solr", "Java", "TestNG", "Selenium", "Amazon S3", "CSS", "JWPlayer"]
-    },
-    "hp_assethub": {
-      "title": "​HP Asset Hub",
-      "client": "Hewlett Packard",
-      "from": "2013-06-01",
-      "to": "2014-09-01",
-      "role": "Junior Developer",
-      "description": "​Web application for the HP's marketing department based on Drupal. The project integrates Drupal with technologies like Solr and a REST full api implemented with JAVA.",
-      "technologies": ["Drupal", "jQuery", "JavaScript", "PHP", "Solr", "Java", "TestNG", "Selenium", "Amazon S3", "CSS", "JWPlayer"]
-    },
-    "gva": {
-      "title": "​Comunidad Valenciana's tourism website",
-      "client": "Generalitat V​alenciana",
-      "from": "2012-10-01",
-      "to": "2013-06-01",
-      "role": "beacario",
-      "description": "​Comunidad Valenciana's tourism website based on drupal. The proyect includes a new design and new functionalities, the migration from Drupal 5 to Drupal 6 and an update of the Back-end architecture.",
-      "technologies": ["Drupal", "PHP", "JavaScript", "CSS"]
-    },
-    "acd": {
-      "title": "​Andalucia Compromiso Digital",
-      "client": "Junta de Andalucía",
-      "from": "2012-10-01",
-      "to": "2013-06-01",
-      "role": "beacario",
-      "description": "​Junta de Andalucía's website to reduce the digital divide in Andalusia and implements a management system to allow volunteers to teach citizens. The proyect includes a new design and new functionalities.",
-      "technologies": ["Drupal", "PHP", "JavaScript", "CSS", "Moodle"]
+    "VarnishAdmin": {
+      "title": "​VarnishAdmin",
+      "url": "https://github.com/jeslopcru/VarnishAdmin",
+      "description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as heavily consumed APIs.  Using VarnishAdmin can connect to varnishadm using PHP and sockets to interact with Varnish. Sending purges url, seeing the state of Varnish, ...",
+      "technologies": [
+        "PHP",
+        "PHPUnit",
+        "Git",
+        "Varnish"
+      ]
     }
   },
-  "education": [{
-    "name": " Associate/Foundation Degree in Management and Development of Information Systems",
-    "from": "2009",
-    "to": "2011",
-    "at": "I.E.S. Punta del Verde (Seville)"
-  }, {
-    "name": "High School Degree in Technology",
-    "from": "2004",
-    "to": "2006",
-    "at": "I.E.S. San Blas, Aracena (Huelva)"
-  }],
-  "couses": [{
-    "title": "Staying sharp with Angular.js",
-    "from": "Code School",
-    "type": "Online",
-    "when": "2014"
-  }, {
-    "title": "Shaping up with Angular.js",
-    "from": "Code School",
-    "type": "Online",
-    "when": "2014"
-  }, {
-    "title": "Journey Into Mobile",
-    "from": "Code School",
-    "type": "Online",
-    "when": "2014"
-  }, {
-    "title": "Front-end Formations",
-    "from": "Code School",
-    "type": "Online",
-    "when": "2014"
-  }, {
-    "title": "CSS Cross-Country",
-    "from": "Code School",
-    "type": "Online",
-    "when": "2014"
-  }, {
-    "title": "JavaScript best Ppractices",
-    "from": "Code School",
-    "type": "Online",
-    "when": "2014"
-  }, {
-    "title": "jQuery (parts 1 and 2)",
-    "from": "Code School",
-    "type": "Online",
-    "when": "2013"
-  }, {
-    "title": "JavaScript Road Trip (parts 1, 2 and 3)",
-    "from": "Code School",
-    "type": "Online",
-    "when": "2013"
-  }, {
-    "title": "PHP y MySQL",
-    "from": "EuroInnova",
-    "type": "Online",
-    "hours": "85h"
-  }],
-  "certifications": [{
-    "title": "Drupal 7 expert. Web applications development",
-    "when": "2012",
-    "from": "Forcontu",
-    "type": "Online",
-    "hours": "420h"
-  }, {
-    "title": "Agile software development methodologies and personal productivity techniques",
-    "from": "CICA",
-    "type": "Presencial",
-    "hours": "20h"
-  }]
+  "education": [
+    {
+      "name": "Computer Science Engineering",
+      "at": "University of Seville",
+      "description": "Some projects developed during this period: language recognition for the daily session of the 'Congreso de los diputados' (Java Lucene, Solr, Python: NLTK). Undergraduate Thesis Project.: private social network for patients rehab (Liferay Social Office, Java, Spring, Hibernate, Maven and PostgreSQL)"
+    },
+    {
+      "name": "SICUE-Séneca Scolarship: Computer Science Engineering",
+      "from": "2011",
+      "to": "2011",
+      "at": "Universidad Pontificia de Salamanca Campus Madrid",
+      "description": "During the course 2011/2012 I enjoyed a SICUE / Seneca scholarship for my studies. Some projects developed during the year were: Web application for smartphone (JQuery, PhoneGap, HTML5, PHP, CSS3)."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "ITIL Foundation V3",
+      "by": "PEOPLECERT",
+      "when": "2015-03"
+    }
+  ]
 }
