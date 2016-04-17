@@ -1,5 +1,5 @@
 FROM node:latest
-MAINTAINER jesuslc
+MAINTAINER JesusLC <jeslopcru@gmail.com>
 
 RUN \
   apt-get update && \
@@ -39,3 +39,5 @@ EXPOSE 8080:8080
 
 #Eliminar imagenes
 #docker rmi $(docker images | awk '{print $1":"$2}')
+
+# brew cask install wkhtmltopdf
