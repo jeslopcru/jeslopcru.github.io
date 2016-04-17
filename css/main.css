@@ -7,8 +7,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.4.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("../bower_components/fontawesome/fonts/fontawesome-webfont.eot?v=4.4.0");
+  src: url("../bower_components/fontawesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../bower_components/fontawesome/fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../bower_components/fontawesome/fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../bower_components/fontawesome/fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../bower_components/fontawesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -3075,7 +3075,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.5;
   color: #666;
   background-color: #fff; }
@@ -3216,10 +3216,10 @@ h1, .h1 {
   font-size: 56px; }
 
 h2, .h2 {
-  font-size: 40px; }
+  font-size: 45px; }
 
 h3, .h3 {
-  font-size: 24px; }
+  font-size: 34px; }
 
 h4, .h4 {
   font-size: 24px; }
@@ -3235,16 +3235,16 @@ p {
 
 .lead {
   margin-bottom: 22px;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 1.4; }
   @media (min-width: 768px) {
     .lead {
-      font-size: 16.5px; } }
+      font-size: 22.5px; } }
 
 small,
 .small {
-  font-size: 90%; }
+  font-size: 86%; }
 
 mark,
 .mark {
@@ -3498,7 +3498,7 @@ pre {
   display: block;
   padding: 10.5px;
   margin: 0 0 11px;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.5;
   word-break: break-all;
   word-wrap: break-word;
@@ -4274,7 +4274,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 22px;
-  font-size: 16.5px;
+  font-size: 22.5px;
   line-height: inherit;
   color: #212121;
   border: 0;
@@ -4318,7 +4318,7 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 7px;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.5;
   color: #666; }
 
@@ -4327,7 +4327,7 @@ output {
   width: 100%;
   height: 36px;
   padding: 6px 16px;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.5;
   color: #666;
   background-color: #fff;
@@ -4491,7 +4491,7 @@ fieldset[disabled]
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 0;
-  min-height: 33px; }
+  min-height: 37px; }
   .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
   .input-group-lg > .form-control-static.input-group-addon,
   .input-group-lg > .input-group-btn > .form-control-static.btn, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
@@ -4505,7 +4505,7 @@ fieldset[disabled]
 .input-group-sm > .input-group-btn > .btn {
   height: 31px;
   padding: 5px 10px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
@@ -4527,7 +4527,7 @@ select[multiple].input-sm,
 .form-group-sm .form-control {
   height: 31px;
   padding: 5px 10px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
@@ -4541,9 +4541,9 @@ select[multiple].input-sm,
 
 .form-group-sm .form-control-static {
   height: 31px;
-  min-height: 32px;
+  min-height: 35px;
   padding: 6px 10px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5; }
 
 .input-lg, .input-group-lg > .form-control,
@@ -4551,7 +4551,7 @@ select[multiple].input-sm,
 .input-group-lg > .input-group-btn > .btn {
   height: 48px;
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 1.33;
   border-radius: 3px; }
 
@@ -4573,7 +4573,7 @@ select[multiple].input-lg,
 .form-group-lg .form-control {
   height: 48px;
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 1.33;
   border-radius: 3px; }
 
@@ -4587,9 +4587,9 @@ select[multiple].input-lg,
 
 .form-group-lg .form-control-static {
   height: 48px;
-  min-height: 36px;
+  min-height: 41px;
   padding: 11px 16px;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 1.33; }
 
 .has-feedback {
@@ -4798,12 +4798,12 @@ select[multiple].input-lg,
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
     padding-top: 11px;
-    font-size: 14px; } }
+    font-size: 19px; } }
 
 @media (min-width: 768px) {
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
-    font-size: 10px; } }
+    font-size: 13px; } }
 
 .btn {
   display: inline-block;
@@ -4817,7 +4817,7 @@ select[multiple].input-lg,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 16px;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.5;
   border-radius: 3px;
   -webkit-user-select: none;
@@ -5093,19 +5093,19 @@ fieldset[disabled] a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 1.33;
   border-radius: 3px; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px; }
 
@@ -5180,7 +5180,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 11px;
+  font-size: 15px;
   text-align: left;
   background-color: #fff;
   border: 1px solid #ccc;
@@ -5244,7 +5244,7 @@ tbody.collapse.in {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5;
   color: #bbb;
   white-space: nowrap; }
@@ -5487,7 +5487,7 @@ tbody.collapse.in {
 
 .input-group-addon {
   padding: 6px 16px;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: normal;
   line-height: 1;
   color: #666;
@@ -5499,13 +5499,13 @@ tbody.collapse.in {
   .input-group-sm > .input-group-addon,
   .input-group-sm > .input-group-btn > .input-group-addon.btn {
     padding: 5px 10px;
-    font-size: 10px;
+    font-size: 13px;
     border-radius: 3px; }
   .input-group-addon.input-lg,
   .input-group-lg > .input-group-addon,
   .input-group-lg > .input-group-btn > .input-group-addon.btn {
     padding: 10px 16px;
-    font-size: 14px;
+    font-size: 19px;
     border-radius: 3px; }
   .input-group-addon input[type="radio"],
   .input-group-addon input[type="checkbox"] {
@@ -5782,7 +5782,7 @@ tbody.collapse.in {
 .navbar-brand {
   float: left;
   padding: 21px 15px;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 22px;
   height: 64px; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -6146,7 +6146,7 @@ tbody.collapse.in {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 1.33; }
 
 .pagination-lg > li:first-child > a,
@@ -6162,7 +6162,7 @@ tbody.collapse.in {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5; }
 
 .pagination-sm > li:first-child > a,
@@ -6268,7 +6268,7 @@ a.label:hover, a.label:focus {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: normal;
   color: #fff;
   line-height: 1;
@@ -6334,7 +6334,7 @@ a.badge:hover, a.badge:focus {
         padding-right: 60px; }
       .jumbotron h1,
       .jumbotron .h1 {
-        font-size: 50px; } }
+        font-size: 68px; } }
 
 .thumbnail {
   display: block;
@@ -6450,7 +6450,7 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 22px;
   color: #fff;
   text-align: center;
@@ -6736,7 +6736,7 @@ button.list-group-item-danger {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 13px;
+  font-size: 17px;
   color: inherit; }
   .panel-title > a,
   .panel-title > small,
@@ -7059,7 +7059,7 @@ button.list-group-item-danger {
 
 .close {
   float: right;
-  font-size: 16.5px;
+  font-size: 22.5px;
   font-weight: normal;
   line-height: 1;
   color: #000;
@@ -7221,7 +7221,7 @@ button.close {
   word-break: normal;
   word-spacing: normal;
   word-wrap: normal;
-  font-size: 10px;
+  font-size: 13px;
   opacity: 0;
   filter: alpha(opacity=0); }
   .tooltip.in {
@@ -7334,7 +7334,7 @@ button.close {
   word-break: normal;
   word-spacing: normal;
   word-wrap: normal;
-  font-size: 11px;
+  font-size: 15px;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #fff;
@@ -7354,7 +7354,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 11px;
+  font-size: 15px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-radius: 2px 2px 0 0; }
@@ -8247,6 +8247,9 @@ select.form-control {
 This chunk is to fix Bootstrap so that the Markdown output looks good
 
 *******************************************************************/
+.cv {
+  width: 70% !important; }
+
 body {
   padding-top: 0px;
   padding-bottom: 40px; }
@@ -8304,20 +8307,3 @@ hr {
 
 .details {
   margin-bottom: 2%; }
-
-body {
-  padding-top: 20px; }
-
-.navbar {
-  display: none !important; }
-
-.fa {
-  display: none !important; }
-
-.print {
-  display: inline !important; }
-
-@media (min-width: 992px) {
-  .img-profile {
-    width: 18%;
-    margin-right: 5%; } }

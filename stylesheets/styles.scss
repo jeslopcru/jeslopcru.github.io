@@ -3,7 +3,9 @@
 This chunk is to fix Bootstrap so that the Markdown output looks good
 
 *******************************************************************/
-
+.cv {
+  width: 70% !important;
+}
 body {
   padding-top: 0px;
   padding-bottom: 40px;
