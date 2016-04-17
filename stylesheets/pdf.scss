@@ -18,8 +18,9 @@ body {
   display: inline !important;
   ;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .img-profile {
     width: 18%;
+    margin-right: 5%;
   }
 }
