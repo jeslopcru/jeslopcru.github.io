@@ -10,7 +10,7 @@ Check out the following blog entry for more details about the concept: [sharpfel
 
 ## Getting started
 
-You will need a working [Docker]()[bower](http://bower.io/) and [npm](https://www.npmjs.com/) installation. The run
+You will need a working [Docker](https://www.docker.com/) installation. The run
 
 ```
     $ docker build --rm -t "jeslopcru/docker-angular-cv" .
