@@ -6,3 +6,6 @@
 
 ## Directory-based project format:
 .idea/
+
+bower_components/
+node_modules/
