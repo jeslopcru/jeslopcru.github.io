@@ -76,7 +76,7 @@
       T_DETAILS: 'Detalles',
       T_STACK_AND_TOOLS: 'Tecnología y herramientas'
     });
-    $translateProvider.preferredLanguage('en');
+    $translateProvider.preferredLanguage('es');
     $translateProvider.useSanitizeValueStrategy('escape');
 
   });

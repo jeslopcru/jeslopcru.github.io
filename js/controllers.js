@@ -31,8 +31,8 @@
       } else if ($routeParams.lang === 'en') {
         lang = 'en';
       } else {
-        lang = 'en';
-        $location.path('/en', false);
+        lang = 'es';
+        $location.path('/es', false);
       }
 
       $scope.loadLanguage(lang);
