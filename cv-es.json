@@ -182,7 +182,7 @@
     {
       "title": "Refactoring a patrones",
       "by": "geekshubsacademy",
-      "description": "Cuando hemos aprendido el 'dar cera pulir cera' del refactoring y nuestras funciones ya no pasan de las 20 líneas, nuestro código es semántico y limpio como una patena, entonces empezamos a ver que nuestra estructura, nuestro diseño, también necesita atención. Por tanto aplicaremos mecánicas de refactoring convergiendo a patrones bien conocidos."
+      "description": "Cuando hemos aprendido el 'dar cera pulir cera' del refactoring y nuestras funciones ya no pasan de las 20 líneas, nuestro código es semántico y limpio como una patena, entonces empezamos a ver que nuestra estructura, nuestro diseño, también necesita atención. Por tanto aplicaremos mecánicas de refactoring convergiendo a patrones bien conocidos.",
       "when": "2016-02"
     }
   ],
@@ -190,7 +190,7 @@
     {
       "title": "Profesor del curso 'Refactoring a Patrones",
       "by": "GeekHubs Academy",
-      "when": "2016-11"
+      "when": "2016-11",
       "description": "El objetivo de este curso es mejorar el código PHP de nuestras aplicaciones sin miedo a romper la funcionalidad y mejorando el mantenimiento del código. La idea es aprender técnicas para mejorar nuestras habilidades como programadores y poder afrontar modificaciones en un código legado evitando los problemas comunes."
     }
   ]
