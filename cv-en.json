@@ -33,6 +33,18 @@
       "stack": "PHP (Yii, Yii2), HTML, CSS, Javascript, JQuery, Bootstrap, Varnish, Vagrant, Jenkins, MariaDB."
     },
     {
+      "title": "Online teacher:Refactoring en PHP",
+      "from": "2016-10",
+      "to": "2016-10",
+      "company": {
+        "name": "geekshubs Academy",
+        "url": "https://geekshubsacademy.com/cursos/refactoring-php"
+      },
+      "description": "The goal of this course is improve our PHP code without fear of breaking functionality and improving code maintenance. The idea behind is to learn techniques to improve our abilities as programmers and to be able to face modifications in a legacy code avoiding the common problems.",
+      "tools": "PHPStorm, composer, PHPUnit, git,",
+      "stack": "PHP, design patterns, "
+    },
+    {
       "title": "Software Engineer",
       "from": "2013-09",
       "to": "2015-02",
@@ -165,9 +177,32 @@
   ],
   "certifications": [
     {
+      "title": "Professional Scrum Master I",
+      "by": "Scrum.org",
+      "when": "2017-03"
+    },
+    {
+      "title": "ITIL Foundation V3",
+      "by": "PEOPLECERT",
+      "when": "2015-03"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Course Professional Scrum Master I",
+      "by": "Scrum.org",
+      "when": "2017-03"
+    },
+    {
+      "title": "Refactoring a Patrones",
+      "by": "GeeksHubs Academy",
+      "when": "2016-03"
+    },
+    {
       "title": "ITIL Foundation V3",
       "by": "PEOPLECERT",
       "when": "2015-03"
     }
   ]
+
 }

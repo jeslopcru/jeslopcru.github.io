@@ -31,6 +31,18 @@
       "stack": "PHP (Yii, Yii2), HTML, CSS, Javascript, JQuery, Bootstrap, Varnish, Vagrant, Jenkins, MariaDB."
     },
     {
+      "title": "Profesor del curso online:Refactoring en PHP",
+      "from": "2016-10",
+      "to": "2016-10",
+      "company": {
+        "name": "geekshubs Academy",
+        "url": "https://geekshubsacademy.com/cursos/refactoring-php"
+      },
+      "description": "El objetivo de este curso es mejorar el código PHP de nuestras aplicaciones sin miedo a romper la funcionalidad y mejorando el mantenimiento del código. La idea es aprender técnicas para mejorar nuestras habilidades como programadores y poder afrontar modificaciones en un código legado evitando los problemas comunes.",
+      "tools": "PHPStorm, composer, PHPUnit, git,",
+      "stack": "PHP, design patterns, "
+    },
+    {
       "title": "Ingeniero software",
       "from": "2013-09",
       "to": "2015-02",
