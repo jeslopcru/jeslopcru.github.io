@@ -1,5 +1,5 @@
 #!/bin/bash
-hugo -t 
+hugo
 rm -rf /tmp/ghpage-jesuslc-public
 cp -R public /tmp/ghpage-jesuslc-public
 rm -rf public
