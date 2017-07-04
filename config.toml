@@ -1,0 +1,265 @@
+# Page settings
+baseurl = "http://cv.jesuslc.com/"
+languageCode = "en-us"
+theme = "cv-jesuslc-theme"
+googleAnalytics = "UA-35027264-2"
+
+# Do not build files for websites. Need them? Set to false
+disableKinds=["RSS", "sitemap"]
+
+[params]
+
+# Meta
+author = "Jesús LC"
+title = "Jesús López de la Cruz - Curriculum Vitae (Jesús LC)"
+description = "Jesús L.C. Curriculum Vitae. I am a computer engineer and passionate about programming. I like traveling, miss walking through the city and I enjoy fooding. I am Test Driven Development advocate and I love Refactoring too.  I like designing architectures and thinking about how to improve development workflows, but I enjoy getting my hands dirty. I am a friendly guy, always searching for new experiencies and meeting new people."
+
+# Theme styles
+
+styles = "styles.css"
+
+# Sidebar sections
+# Profile section
+[params.profile]
+name = "Jesús López de la Cruz"
+tagline = "Software Engineer - Scrum Master & ITIL Certified"
+avatar = "jesuslc.png"
+
+# Contact section
+[params.contact]
+enable = true
+
+[[params.contact.list]]
+class = "email"
+icon = "fa-envelope"
+url = "mailto: jeslopcru@gmail.com"
+title = "jeslopcru@gmail.com"
+
+[[params.contact.list]]
+class = "website"
+icon = "fa-globe"
+url = "//jesuslc.com"
+title = "jesuslc.com"
+
+[[params.contact.list]]
+class = "linkedin"
+icon = "fa-linkedin"
+url = "//linkedin.com/in/jesuslc"
+title = "linkedin.com/in/jesuslc"
+
+[[params.contact.list]]
+class = "github"
+icon = "fa-github"
+url = "//github.com/jeslopcru"
+title = "github.com/jeslopcru"
+
+[[params.contact.list]]
+class = "twitter"
+icon = "fa-twitter"
+url = "//twitter.com/jeslopcru"
+title = "@jeslopcru"
+
+# Education section
+[params.education]
+enable = true
+title = "Education"
+
+[[params.education.list]]
+degree = "Professional Scrum Master I"
+college = "Scrum.org"
+dates = "2017"
+
+[[params.education.list]]
+degree = "ITIL Foundation V3"
+college = "Tecnofor"
+dates = "2015"
+
+[[params.education.list]]
+degree = "MSc in Software Engineering"
+college = "University of Seville"
+
+# Interests section
+[params.interests]
+enable = true
+title = "Interests"
+
+[[params.interests.list]]
+interest = "Cooking"
+
+[[params.interests.list]]
+interest = "Family"
+
+[[params.interests.list]]
+interest = "Travelling"
+
+[[params.interests.list]]
+interest = "Blogging"
+
+[[params.interests.list]]
+interest = "Coding"
+
+[[params.interests.list]]
+interest = "Agile"
+
+
+
+# Main body sections
+
+# Summary section
+[params.summary]
+enable = true
+icon = "fa-user"
+title = "Career Profile"
+summary = "I am a computer engineer and passionate about programming. I like traveling, miss walking through the city and I enjoy fooding. I am Test Driven Development advocate and I love Refactoring too.  I like designing architectures and thinking about how to improve development workflows, but I enjoy getting my hands dirty. I am a friendly guy, always searching for new experiencies and meeting new people."
+
+# Experiences section
+[params.experiences]
+enable = true
+icon = "fa-briefcase"
+title = "Experiences"
+
+[[params.jobs.list]]
+position = "Agile Software Engineer"
+dates = "February 2015 - Present"
+company = "[Coches.com](//www.coches.com) - Madrid"
+details = "Development and continuous improvement to the company's products and services focus on the final users. Technology changes and devolopment methods for improve the process, products.\n\n - Agile Management using Jira, Jira Service Desk, Confluence and Scrum.\n - PHP Development using Yii, Yii2, Doctrine, Boostrap and JQuery.\n - Using Varnish for A/B Test\n. - Development using Wordpress.\n\n *Management:* Agile using Scrum, Test Driven Development(TDD), Pair Programming and Code Review.\n\n *Technology and tools:* Jira, Confluence, Bitbucket, Jenkins, Git (Gitflow) for management. PHP, HTML. CSS, JQuery, Bootstrap, gulp, Yii, Yii2, Wordpress, Doctrine,PHPUnit, Varnish, Docker, MariaDB for development."
+
+[[params.jobs.list]]
+position = "Lecturer"
+dates = "October 2016"
+company = "[geekshubsacademy.com](https://geekshubsacademy.com/cursos/refactoring-php) - Online"
+details = "Online refactoring course for PHP developers at [geekshubsacademy.com](//geekshubsacademy.com/cursos/refactoring-php).The purpose of this course is to improve the PHP code of our applications without fear of breaking functionality and improving code maintenance."
+
+[[params.jobs.list]]
+position = "Software Developer"
+dates = "September 2013 - February 2015"
+company = "[Genexies Mobile](http://www.genexies.com/), Madrid"
+details = "Genexies business is selling digital content (music, games,...) over the Internet for mobile devices and PC.\n Develop our own platform for management content:\n\n - Implementing modules and components using PHP and Symfony.\n - Integration with third party services (OAuth, ZED-MSCP, telecommunications billing).\n - Integration with broadband and telecommunications providers.\n - Testing and quality.\n - Generation and automation of reports.\n - Layout on mobile devices.\n\n *Tools:* Jira, Confluence, Fisheye Using agile methodology like Scrum and Kanban.\n\n *Techonology:* PHP (Symfony), PHPUnit, Wordpress, MySQL, Java (Spring framework), Maven, Apache, Memcached, Jenkins, Selenium, ActiveMQ, Mercurial, Capistrano, Varnish,Vagrant, Graylog."
+
+[[params.jobs.list]]
+position = "Software Developer"
+dates = "June 2012 - January 2013"
+company = "[Zinetic](http://www.zinetic.es/), Madrid"
+details = "Management and development web applications, corporate portals and online stores based on Joomla platform.\n - Develop modules and custom component.\n - Development payment gateway (ClearOne, Paypal).\n - Portal Integration with other systems\n\n Development [Aurgi](https://www.aurgi.com/) ecommerce web site.\n\n*Technology:* PHP, ISS, Joomla, MySQL, HTML, CSS and JQuery."
+
+# Courses section
+[params.certifications]
+enable = true
+icon = "fa-graduation-cap"
+title = "Certifications"
+intro = ""
+
+[[params.certifications.list]]
+title = "Professional Scrum Master I"
+dates = "February 2017"
+company = "[Scrum.org](http://www.scrum.org/), Madrid"
+details = "Course covers the principles and (empirical) process theory underpinning the Scrum framework, and the role of the Scrum Master in it. The Professional Scrum Master™ level I (PSM I) assessment validate his depth of knowledge of the Scrum framework and its application."
+
+[[params.certifications.list]]
+title = "Refactoring to Patterns"
+dates = "April 2016"
+company = "[Geekshubs Academy](https://geekshubsacademy.com/cursos/refactoring-a-patrones-beta), Online"
+details = "When we have learned the 'Wax on, Wax off' of refactoring and our functions are no longer than 20 lines, our code is semantic and clean, then we begin to see that our structure, our design, also needs attention. Therefore we will apply refactoring mechanics converging to well known patterns."
+
+
+[[params.certifications.list]]
+title = "ITIL Foundation V3"
+dates = "March 2015"
+company = "[Peoplecert](http://www.peoplecert.org/), Madrid"
+details = "ITIL Foundation is suitable for individuals who require a basic understanding of the ITIL framework and how it may be used to enhance the quality of IT service management within an organization. The ITIL Foundation Certification also applies to IT professionals who work within an organization that has adopted ITIL and so need to be aware of and contribute to the overall service improvement programme."
+
+[[params.certifications.list]]
+title = "MSc in Software Engineering"
+dates = "March 2015"
+company = "[University of Seville](http://us.es)"
+
+# Projects section
+[params.projects]
+enable = true
+icon = "fa-archive"
+title = "Projects"
+intro = "**I love Open Source** and I share code. I enjoy getting my hands dirty coding and learning about software."
+
+[[params.projects.list]]
+title = "VarnishAdmin"
+url = "https://github.com/jeslopcru/VarnishAdmin"
+tagline = "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as heavily consumed APIs. Using VarnishAdmin can connect to varnishadm using PHP and sockets to interact with Varnish. Sending purges url, seeing the state of Varnish,..."
+
+[[params.projects.list]]
+title = "Git-Score"
+url = "https://github.com/jeslopcru/git-score"
+tagline = "git-score is a script to compute some 'scores' for committers in a git repo. Use it for fun or to brag about your involvement in the development of a project."
+
+[[params.projects.list]]
+title = "mac-dev-playbook"
+url = "https://github.com/jeslopcru/mac-dev-playbook"
+tagline = "Ansible playbook for installing Mac OS X to my development needs."
+
+[[params.projects.list]]
+title = "Legacy Code"
+url = "https://github.com/jeslopcru/LegacyCode"
+tagline = "As a developer, we often work with old code without tests and sometimes with a somewhat confusing organization. To learn and practice different techniques I began the Legacy Code project also blog you can see a series of posts where this application completely refactor legacy written in PHP."
+
+# Talks section
+[params.talks]
+enable = true
+icon = "fa-desktop"
+title = "Talks"
+intro=""
+
+[[params.talks.list]]
+title = "Refactoring Introduction"
+dates = "June 2017"
+url = "talks/phpsevilla020/index.html"
+tagline = "**Meetup about Refacting in PHP** at [PHPSevilla Meetup](//www.meetup.com/es-ES/PHP-Sevilla/). The idea was to show how with patience and baby steps we can greatly improve our code. Making a special emphasis on readability and making what we program is easy to understand. The slides was made using Keynote with the PHPSevilla template."
+
+[[params.talks.list]]
+title = "Test Driven Development in PHP"
+url = "talks/tdd/index.html"
+dates = "January 2017"
+tagline = "**Internal talk about Test Driven Development(TDD) in PHP** at [coches.com](//www.coches.com). A little introduction to TDD with a kata to finish. The slides was made using Keynote."
+
+[[params.talks.list]]
+title = "Refactoring in PHP"
+dates = "October 2016"
+url = "/talks/refactoring/index.html"
+tagline = "**Online refactoring in PHP course** at [geekshubsacademy.com](//geekshubsacademy.com/cursos/refactoring-php).The purpose of this course is to improve the PHP code of our applications without fear of breaking functionality and improving code maintenance. The idea is to learn techniques to improve our abilities as programmers and to be able to face modifications in a legacy code avoiding the common problems. The slides was made using Keynote."
+
+[[params.talks.list]]
+title = "Mocks"
+dates = "May 2015"
+url = "talks/mocks/index.html"
+tagline = "**Internal talk about Testing** at [coches.com](//www.coches.com). Little introduction about mocks. The slides make using [shower](https://github.com/shower/shower)"
+
+
+# Skills section
+[params.skills]
+enable = true
+icon = "fa-rocket"
+title = "Skills & Proficiency"
+intro = "I love to shape an idea, to carry it out and put it into production so that it can bring value. I also like Open Source and have collaborated with different projects."
+
+[[params.skills.list]]
+skill = "Web Development: PHP, Javascript, HTML, Go"
+level = "90%"
+
+[[params.skills.list]]
+skill = "Testing, refactoring, quality assurance"
+level = "75%"
+
+[[params.skills.list]]
+skill = "TDD, BDD, Continuous Integration, eXtreme Programing, Code Review"
+level = "95%"
+
+[[params.skills.list]]
+skill = "Agile: Scrum, Kanban, Lean"
+level = "80%"
+
+[[params.skills.list]]
+skill = "Devops: Docker, Vangrant, Ansible, Linux"
+level = "75%"
+
+# Footer section
+
+[params.footer]
+copyright = "Development by Jesús LC using [Hugo](https://gohugo.io/) and customized [Orbit template](https://github.com/aerohub/hugo-orbit-theme) - Curriculum Vitae"
