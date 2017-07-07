@@ -7,16 +7,24 @@ googleAnalytics = "UA-35027264-2"
 # Do not build files for websites. Need them? Set to false
 disableKinds=["RSS", "sitemap"]
 
+# Theme styles
+
+
 [params]
+title = "Jesús López de la Cruz - Curriculum Vitae (Jesús LC)"
+styles = "styles.css"
+baseurl = "http://cv.jesuslc.com/"
+
 
 # Meta
+[params.meta]
 author = "Jesús LC"
 title = "Jesús López de la Cruz - Curriculum Vitae (Jesús LC)"
 description = "Jesús L.C. Curriculum Vitae. I am a computer engineer and passionate about programming. I like traveling, miss walking through the city and I enjoy fooding. I am Test Driven Development advocate and I love Refactoring too.  I like designing architectures and thinking about how to improve development workflows, but I enjoy getting my hands dirty. I am a friendly guy, always searching for new experiencies and meeting new people."
+image = "jesuslc.png"
+twitter="@jeslopcru"
 
-# Theme styles
 
-styles = "styles.css"
 
 # Sidebar sections
 # Profile section
@@ -75,7 +83,7 @@ college = "Tecnofor"
 dates = "2015"
 
 [[params.education.list]]
-degree = "MSc in Software Engineering"
+degree = "Master Degree in Software Engineering"
 college = "University of Seville"
 
 # Interests section
@@ -169,7 +177,7 @@ company = "[Peoplecert](http://www.peoplecert.org/), Madrid"
 details = "ITIL Foundation is suitable for individuals who require a basic understanding of the ITIL framework and how it may be used to enhance the quality of IT service management within an organization. The ITIL Foundation Certification also applies to IT professionals who work within an organization that has adopted ITIL and so need to be aware of and contribute to the overall service improvement programme."
 
 [[params.certifications.list]]
-title = "MSc in Software Engineering"
+title = "Master Degree in Software Engineering"
 dates = "March 2015"
 company = "[University of Seville](http://us.es)"
 
@@ -191,7 +199,7 @@ url = "https://github.com/jeslopcru/git-score"
 tagline = "git-score is a script to compute some 'scores' for committers in a git repo. Use it for fun or to brag about your involvement in the development of a project."
 
 [[params.projects.list]]
-title = "mac-dev-playbook"
+title = "Mac-Automatic-install"
 url = "https://github.com/jeslopcru/mac-dev-playbook"
 tagline = "Ansible playbook for installing Mac OS X to my development needs."
 
@@ -241,15 +249,15 @@ intro = "I love to shape an idea, to carry it out and put it into production so 
 
 [[params.skills.list]]
 skill = "Web Development: PHP, Javascript, HTML, Go"
+level = "95%"
+
+[[params.skills.list]]
+skill = "Testing, Refactoring, Quality assurance"
 level = "90%"
 
 [[params.skills.list]]
-skill = "Testing, refactoring, quality assurance"
-level = "75%"
-
-[[params.skills.list]]
 skill = "TDD, BDD, Continuous Integration, eXtreme Programing, Code Review"
-level = "95%"
+level = "90%"
 
 [[params.skills.list]]
 skill = "Agile: Scrum, Kanban, Lean"
