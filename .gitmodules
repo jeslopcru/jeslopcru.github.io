@@ -1,0 +1,3 @@
+[submodule "themes/cv-jesuslc-theme"]
+	path = themes/cv-jesuslc-theme
+	url = https://github.com/jeslopcru/cv-jesuslc-theme
