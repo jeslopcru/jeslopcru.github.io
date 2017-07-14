@@ -1,12 +1,15 @@
-Curriculum Vitae Jesús López de la Cruz
-Ingeniero en Informática
-Software Engineer - ITIL Certified
+Jesús López de la Cruz
+Software Engineer - Professional Scrum Master Cerfified & ITIL Certified
+I am a computer engineer and passionate about programming. I like traveling, miss walking through the city and I enjoy fooding. I am Test Driven Development advocate and I love Refactoring too. I like designing architectures and thinking about how to improve development workflows, but I enjoy getting my hands dirty. I am a friendly guy, always searching for new experiences and meeting new people.
+
 
 /* MAIN */
-  Develop & Main Design: Jesús López de la Cruz
+  Develop: Jesús López de la Cruz
   Twitter: @jeslopcru
-  Site: http://www.jesuslc.com
+  Github: https://github.com/jeslopcru
+  LinkedIn: http://es.linkedin.com/in/jesuslc/
+  Site: http://cv.jesuslc.com
 
 /* SITE */
-  Components:  Fontawesome, Bootstrap, JQuery, Angular
+  Components:  Hugo (Go)
   Software: Sublime 2, Docker, Google Chrome, mucho cariño y paciencia

@@ -118,7 +118,7 @@ interest = "Agile"
 enable = true
 icon = "fa-user"
 title = "Career Profile"
-summary = "I am a computer engineer and passionate about programming. I like traveling, miss walking through the city and I enjoy fooding. I am Test Driven Development advocate and I love Refactoring too.  I like designing architectures and thinking about how to improve development workflows, but I enjoy getting my hands dirty. I am a friendly guy, always searching for new experiencies and meeting new people."
+summary = "I am a computer engineer and passionate about programming. I like traveling, miss walking through the city and I enjoy fooding. I am Test Driven Development advocate and I love Refactoring too.  I like designing architectures and thinking about how to improve development workflows, but I enjoy getting my hands dirty. I am a friendly guy, always searching for new experiences and meeting new people."
 
 # Experiences section
 [params.experiences]
@@ -218,25 +218,25 @@ intro=""
 [[params.talks.list]]
 title = "Refactoring Introduction"
 dates = "June 2017"
-url = "talks/phpsevilla020/index.html"
+url = "/assets/slides/phpsevilla020/index.html"
 tagline = "**Meetup about Refacting in PHP** at [PHPSevilla Meetup](//www.meetup.com/es-ES/PHP-Sevilla/). The idea was to show how with patience and baby steps we can greatly improve our code. Making a special emphasis on readability and making what we program is easy to understand. The slides was made using Keynote with the PHPSevilla template."
 
 [[params.talks.list]]
 title = "Test Driven Development in PHP"
-url = "talks/tdd/index.html"
+url = "/assets/slides/tdd/index.html"
 dates = "January 2017"
 tagline = "**Internal talk about Test Driven Development(TDD) in PHP** at [coches.com](//www.coches.com). A little introduction to TDD with a kata to finish. The slides was made using Keynote."
 
 [[params.talks.list]]
 title = "Refactoring in PHP"
 dates = "October 2016"
-url = "/talks/refactoring/index.html"
+url = "/assets/slides/refactoring/index.html"
 tagline = "**Online refactoring in PHP course** at [geekshubsacademy.com](//geekshubsacademy.com/cursos/refactoring-php).The purpose of this course is to improve the PHP code of our applications without fear of breaking functionality and improving code maintenance. The idea is to learn techniques to improve our abilities as programmers and to be able to face modifications in a legacy code avoiding the common problems. The slides was made using Keynote."
 
 [[params.talks.list]]
 title = "Mocks"
 dates = "May 2015"
-url = "talks/mocks/index.html"
+url = "/assets/slides/mocks/index.html"
 tagline = "**Internal talk about Testing** at [coches.com](//www.coches.com). Little introduction about mocks. The slides make using [shower](https://github.com/shower/shower)"
 
 
