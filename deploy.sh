@@ -1,4 +1,5 @@
 #!/bin/bash
+git submodule update --recursive --remote
 hugo
 rm -rf /tmp/ghpage-jesuslc-public
 cp -R public /tmp/ghpage-jesuslc-public
