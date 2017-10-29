@@ -225,8 +225,7 @@ tagline = "**Internal talk about testing** at [PHPSevilla Meetup](//www.meetup.c
 title = "Refactoring Introduction"
 dates = "June 2017"
 url = "/assets/slides/phpsevilla020/index.html"
-tagline = "**Meetup about Refacting in PHP** 
-The content is about what is testing, the different types of test that exist and the basic concepts of this process. Some tips and anti pattern"
+tagline = "**Meetup about Refacting in PHP** The content is about what is testing, the different types of test that exist and the basic concepts of this process. Some tips and anti pattern"
 
 [[params.talks.list]]
 title = "Test Driven Development in PHP"
