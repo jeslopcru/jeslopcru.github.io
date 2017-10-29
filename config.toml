@@ -216,16 +216,16 @@ title = "Talks"
 intro=""
 
 [[params.talks.list]]
-title = "Refactoring Introduction"
-dates = "June 2017"
+title = "Testing 'A dormir tranquilos'"
+dates = "October 2017"
 url = "/assets/slides/testing/index.html"
-tagline = "**Internal talk about testing** at [PHPSevilla Meetup](//www.meetup.com/es-ES/PHP-Sevilla/). The idea was to show how with patience and baby steps we can greatly improve our code. Making a special emphasis on readability and making what we program is easy to understand. The slides was made using Keynote with the PHPSevilla template."
+tagline = "**Internal talk about testing** The content is about what is testing, the different types of test that exist and the basic concepts of this process. Some tips and anti pattern"
 
 [[params.talks.list]]
 title = "Refactoring Introduction"
 dates = "June 2017"
 url = "/assets/slides/phpsevilla020/index.html"
-tagline = "**Meetup about Refacting in PHP** The content is about what is testing, the different types of test that exist and the basic concepts of this process. Some tips and anti pattern"
+tagline = "**Meetup about Refacting in PHP** at [PHPSevilla Meetup](//www.meetup.com/es-ES/PHP-Sevilla/). The idea was to show how with patience and baby steps we can greatly improve our code. Making a special emphasis on readability and making what we program is easy to understand. The slides was made using Keynote with the PHPSevilla template."
 
 [[params.talks.list]]
 title = "Test Driven Development in PHP"
