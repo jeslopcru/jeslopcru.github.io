@@ -215,6 +215,13 @@ icon = "fa-desktop"
 title = "Talks"
 intro=""
 
+
+[[params.talks.list]]
+title = "Test Driven Development - Kata - PHPSevilla"
+dates = "November 2017"
+url = "/assets/slides/tdd-phpsevilla/index.html"
+tagline = "**Meetup about Test Driven Development** at [PHPSevilla Meetup](//www.meetup.com/es-ES/PHP-Sevilla/). A little introduction to TDD with a kata to finish. The slides were made using Keynote."
+
 [[params.talks.list]]
 title = "Testing 'A dormir tranquilos'"
 dates = "October 2017"
