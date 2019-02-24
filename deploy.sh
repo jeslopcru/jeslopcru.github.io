@@ -1,5 +1,6 @@
 #!/bin/bash
-git submodule update --recursive --remote
+cd themes/cv-jesuslc-theme && git pull
+cd ../../
 hugo
 rm -rf /tmp/ghpage-jesuslc-public
 cp -R public /tmp/ghpage-jesuslc-public
