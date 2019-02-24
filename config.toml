@@ -163,7 +163,7 @@ dates = "September 2018"
 company = "[UPV](https://www.grycap.upv.es/cursocloudaws/index.php), Online"
 details = "Course covers the principles of Cloud Computing using Amazon Web Services: Cloud Computing, Amazon Web Services. Application Architecture,. Deploy and automatic provision. Docker. Big Data. Serverless."
 
-
+[[params.certifications.list]]
 title = "Professional Scrum Master I"
 dates = "February 2017"
 company = "[Scrum.org](http://www.scrum.org/), Madrid"
@@ -174,7 +174,6 @@ title = "Refactoring to Patterns"
 dates = "April 2016"
 company = "[Geekshubs Academy](https://geekshubsacademy.com/cursos/refactoring-a-patrones-beta), Online"
 details = "When we have learned the 'Wax on, Wax off' of refactoring and our functions are no longer than 20 lines, our code is semantic and clean, then we begin to see that our structure, our design, also needs attention. Therefore we will apply refactoring mechanics converging to well known patterns."
-
 
 [[params.certifications.list]]
 title = "ITIL Foundation V3"
