@@ -1,6 +1,6 @@
 #!/bin/bash
-cd themes/cv-jesuslc-theme && git pull
-cd ../../
+git submodule update --init --recursive
+cd themes/cv-jesuslc-theme && git checkout master && git pull && cd ../../
 hugo
 rm -rf /tmp/ghpage-jesuslc-public
 cp -R public /tmp/ghpage-jesuslc-public

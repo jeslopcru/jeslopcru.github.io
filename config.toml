@@ -222,6 +222,11 @@ intro=""
 
 
 [[params.talks.list]]
+title = "Git y Personas - CommitConf"
+dates = "November 2018"
+url = "/assets/slides/2018-11-commitconf-git-y-personas.pdf"
+tagline = "**Talk about branching strategies** at [CommitConf](https://2018.commit-conf.com/). A comparative about diferents branching strategies for teams"
+
 title = "Test Driven Development - Kata - PHPSevilla"
 dates = "November 2017"
 url = "/assets/slides/2017-11-phpsevilla-tdd/index.html"
